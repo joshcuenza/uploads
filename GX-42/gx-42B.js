@@ -1,6 +1,34 @@
 $('head').append(`
 <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700&display=swap');
+    .gx-ul-wrapper>ul{
+        height: 100px;
+    }
+    @media screen and (min-width:769px){
+        .setup-auto-delivery,.tier-incentive-wrapper,.tier-incentive-container .need-anything-else,.form.right-wrapper .need-anything-else{
+            display:none;
+        }
+        .need-anything-else {
+            margin-bottom: 25px;
+        }
+    }
+    @media screen and (max-width:768px){
+        .cart-heading .need-anything-else,.form.right-wrapper .need-anything-else{
+            display:none;
+        }
+        .need-anything-else {
+            margin-bottom: 0;
+        }
+        .form.right-wrapper {
+            padding-top: 0;
+            margin-top: -50px;
+        }
+    }
+    @media screen and (max-width: 370px){
+        .gx-ul-wrapper>ul {
+            height: 140px;
+        }
+    }
     .gx-ul-wrapper>ul>li:last-child{
         display: none;
     }
@@ -20,9 +48,7 @@ $('head').append(`
     .your-cart .need-anything-else{
         max-width: 680px;
     }
-    .your-cart .gx-ul-wrapper>ul{
-        height: 100px;
-    }
+    
     .gx-ul-wrapper>ul {
         display: flex;
         flex-wrap: wrap;

@@ -1,6 +1,30 @@
 $('head').append(`
 <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700&display=swap');
+    .gx-ul-wrapper>ul{
+        height: 100px;
+    }
+    @media screen and (min-width:769px){
+        
+        .cart-heading .need-anything-else,.form.right-wrapper .need-anything-else,.tier-incentive-wrapper{
+            display:none;
+        }
+        
+    }
+    @media screen and (max-width:768px){
+        .cart-heading .need-anything-else, .setup-auto-delivery,.tier-incentive-container .need-anything-else{
+            display:none;
+        }
+        .form.right-wrapper {
+            padding-top: 0;
+            margin-top: -50px;
+        }
+    }
+    @media screen and (max-width: 370px){
+        .gx-ul-wrapper>ul {
+            height: 140px;
+        }
+    }
     .gx-ul-wrapper>ul>li:last-child{
         display: none;
     }
@@ -20,9 +44,6 @@ $('head').append(`
     .your-cart .need-anything-else{
         max-width: 680px;
     }
-    .your-cart .gx-ul-wrapper>ul{
-        height: 100px;
-    }
     .gx-ul-wrapper>ul {
         display: flex;
         flex-wrap: wrap;
@@ -32,7 +53,7 @@ $('head').append(`
         padding: 0 10px;
     }
     .form.right-wrapper .gx-ul-wrapper>ul{
-        height: 140px;
+        height: 100px;
     }
     .gx-addons-checkbox:hover,
     .need-anything-else input:hover,

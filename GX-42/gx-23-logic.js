@@ -76,8 +76,8 @@ $(document).ready(function() {
                 defferedClone().done(cloneCart());
             });
 
+            5   `9``````````
         });
-
     });
     function isWetFood(food){
         if(food.includes("Wet")){

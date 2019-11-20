@@ -1,6 +1,23 @@
 $('head').append(`
 <style>
     @import url('https://fonts.googleapis.com/css?family=Roboto:100,400,500,700&display=swap');
+    @media screen and (min-width:769px){
+        .your-cart .need-anything-else{
+            display:none;
+        }
+    }
+    @media screen and (max-width:768px){
+        .ui-cart .checkout-funnel form#checkout-form .your-cart #cart-items .form .cart-heading .existing-ad-wrapper .setup-auto-delivery{
+            display:none;
+        }
+        .tier-incentive-container .need-anything-else{
+            display:none;
+        }
+        .form.right-wrapper .need-anything-else{
+            display:none;
+        }
+    }
+
     .gx-ul-wrapper>ul>li:last-child{
         display: none;
     }
@@ -21,7 +38,7 @@ $('head').append(`
         max-width: 680px;
     }
     .your-cart .gx-ul-wrapper>ul{
-        height: 100px;
+        height: 140px;
     }
     .gx-ul-wrapper>ul {
         display: flex;
@@ -138,11 +155,13 @@ $('head').append(`
     $(gx42).clone().appendTo('.cart-heading');
     $(gx42).clone().appendTo('.tier-incentive-container');
     $(gx42).clone().appendTo('.form.right-wrapper');
+
+
+
 var breadCrumbs = [];
 var validated = false;
-
-
 firstAttempt();
+
 
 function firstAttempt() {
     breadCrumbs = [];
@@ -161,8 +180,6 @@ function firstAttempt() {
         });
     });
 }
-
-
 var currentItemsOnCart = $('.right-wrapper>.details>h5>a').length;
 function itemListeners(toCheck, tableRow) {
     var listener = $('<div class="gx-listeners">' + toCheck + '</div>');
@@ -170,8 +187,18 @@ function itemListeners(toCheck, tableRow) {
 }
 var z = setInterval(function () {
     if (validated) {
+        var petRequest = breadCrumbs.join(" ").toString().toLowerCase();
+        var dogCount = (petRequest.match(/dog/g) || []).length;
+        var catCount = (petRequest.match(/cat/g) || []).length;
+        var pet = dogCount>=catCount ?"dog": "cat";
+        console.log(pet);
         $('.gx-addons-checkbox').each(function () {
             var category = $(this).text();
+            var url = '/' + pet + '/'+ category.replace('&','and').replace(' ','-').toLowerCase();
+            console.log(url);
+            $(this).on('click',function(){
+                window.location.pathname= url;
+            });
             if (breadCrumbs.toString().includes(category)) {
                 $(this).siblings('.gx-item-checkbox').attr('checked', '');
             }
