@@ -1,0 +1,605 @@
+<style>
+@import url("https://fonts.googleapis.com/css?family=Montserrat:400,500,800&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,450,500,550,700,800&display=swap");
+
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0-modified | 20110126
+   License: none (public domain)
+*/
+.gx-col-flex.gx-table-items:nth-child(2)>div {
+  background-color: rgba(240, 241, 246, 0.5);
+}
+
+.gx-col-flex.gx-table-items>div:nth-child(even) {
+  background-color: rgba(240, 241, 246, 0.5);
+}
+
+.gx-col-flex.gx-table-items>div>div {
+  max-height: 155px;
+  height: 100%;
+  min-height: 155px;
+}
+
+.gx-col-flex.gx-table-items>div>div:first-child>img {
+  height: auto;
+  width: 100%;
+}
+
+.gx-product.gx-row-flex-center {
+  width: 100%;
+}
+
+#superMarketBrand {
+  background: url(https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/brand-on-supermarket.png) no-repeat;
+  background-size: contain;
+}
+
+.container {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.puppy-nudge-header {
+  display: flex;
+  justify-content: center;
+  background: #f5ead5;
+  width: 100%;
+  padding: 0;
+  margin: 0;
+}
+
+.puppy-nudge-header>img {
+  max-width: 100%;
+  height: auto;
+}
+
+.puppy-body {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.puppy-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  width: 100%;
+  max-width: 1400px;
+  justify-content: space-around;
+}
+
+.puppy-content {
+  max-width: 840px;
+  width: 100%;
+  border: 1px solid #c6cfd0;
+  font-family: Roboto;
+  font-style: normal;
+  border-radius: 5px;
+}
+
+.puppy-content>ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  width: 100%;
+  border-radius: 5px;
+}
+
+.puppy-nav-list {
+  flex-basis: 23%;
+  max-width: 310px;
+  background: #f5f6f8;
+  border: 1px solid #c6cfd0;
+  border-radius: 5px;
+}
+
+.guide-items {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  background: #f5f6f8;
+  padding: 18px 23px;
+}
+
+.guide-items-top {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+}
+
+.guide-items>h3 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.gx-inner-content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 100%;
+}
+
+div h3,
+.gx-inner-content>h3 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 23px;
+  width: 100%;
+}
+
+.checkbox-item {
+  position: relative;
+  width: 50px;
+}
+
+.checkbox-item label {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  cursor: pointer;
+  height: 28px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 28px;
+}
+
+.checkbox-item label:after {
+  border: 3px solid #fff;
+  border-top: none;
+  border-right: none;
+  content: "";
+  height: 6px;
+  left: 7px;
+  opacity: 0;
+  position: absolute;
+  top: 8px;
+  transform: rotate(-55deg);
+  width: 12px;
+}
+
+.checkbox-item input[type="checkbox"] {
+  visibility: hidden;
+}
+
+.checkbox-item input[type="checkbox"]:checked+label {
+  background-color: #1cb1b8;
+  border-color: #1cb1b8;
+}
+
+.checkbox-item input[type="checkbox"]:checked+label:after {
+  opacity: 1;
+}
+
+.guide-row {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.guide-content-wrap {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  max-width: 820px;
+}
+
+.guide-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  width: 100%;
+  margin-top: 15px;
+}
+
+.guide-header-wrap {
+  max-width: 532px;
+  width: 100%;
+}
+
+.fnw-guide-row .guide-header-wrap {
+  max-width: 814px;
+}
+
+.guide-header-wrap-content>h4 {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
+  margin-bottom: 20px;
+}
+
+.img-description>p {
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  color: rgba(0, 0, 0, 0.6);
+  margin: 10px 0 20px;
+}
+
+.actual-guide {
+  margin: 20px 0;
+}
+
+.actual-guide>h4 {
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+  margin-top: 20px;
+}
+
+.actual-guide>p {
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 18px;
+  margin-top: 10px;
+}
+
+.breed-size-filter {
+  position: absolute;
+  right: 15px;
+  display: flex;
+  flex-direction: row;
+}
+
+.recommended-puppy-treats-wrap>h4 {
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 21px;
+}
+
+.recommended-puppy-treats {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+}
+
+.puppy-content>ul>li {
+  border-top: 1px solid #c6cfd0;
+}
+
+.puppy-content>ul>li:first-child {
+  border: none;
+}
+
+.puppy-content>ul>li>.guide-items:hover {
+  cursor: pointer;
+}
+
+.recommended-puppy-treats>div {
+  flex-basis: 19%;
+  height: 300px;
+  border-radius: 4px;
+  border: 1px solid pink;
+}
+
+.content-wrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gx-table-items>div:nth-last-child(-n+4) {
+  min-height: 75px;
+  width: auto;
+}
+
+.guide-content-wrap>div {
+  flex-basis: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.guide-content-wrap>div>div {
+  width: 90%;
+}
+
+.gx-inner-content>p {
+  margin: 10px 0;
+}
+
+.gx-inner-content img {
+  width: 100%;
+  max-width: 440px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+}
+
+div>p,
+.gx-inner-content li,
+.gx-inner-content>p {
+  list-style: disc;
+  margin-bottom: 10px;
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 22px;
+}
+
+.gx-inner-content>div {
+  padding: 20px;
+}
+
+.gx-row-flex-start {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.gx-col-flex {
+  display: flex;
+  flex-direction: column;
+}
+
+.gx-table-items {
+  flex-basis: 19%;
+}
+
+#root {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+}
+
+#root>li {
+  max-width: 840px;
+  width: 100%
+}
+
+.gx-table-items>div {
+  min-height: 155px;
+  line-height: 25px;
+  padding: 12px;
+}
+
+.gx-row-flex-center {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.gx-middle-container {
+  width: 100%;
+  padding: 10px;
+  max-width: 840px;
+}
+
+select,
+option {
+  color: #4a4a4a !important;
+  border-radius: 4px !important;
+  font-size: 14px !important;
+  padding: 5px !important;
+  position: relative;
+  width: 120px;
+}
+
+.select-wrapper {
+  position: relative;
+  background: transparent;
+}
+
+.select-wrapper::after {
+  content: "";
+  position: absolute;
+  border-bottom: 1px solid black;
+  border-right: 1px solid black;
+  transform: rotate(45deg);
+  width: 10px;
+  height: 10px;
+  right: 10px;
+  top: 5px;
+  background: transparent;
+}
+
+.select-wrapper::before {
+  content: "";
+  position: absolute;
+  border-radius: 4px;
+  width: 26px;
+  height: 28px;
+  right: 1px;
+  top: 0px;
+  background: transparent;
+  z-index: 1;
+}
+
+.gx-table-list {
+  display: flex;
+  width: 100%;
+  max-width: 820px;
+  padding: 0 5px;
+}
+
+.grey {
+  position: relative;
+  padding: 20px 10px 0px 30px;
+  background: #F5F6F8;
+  border-radius: 5px;
+  width: 100%;
+}
+
+.grey>h3 {
+  font-weight: bold;
+  position: absolute;
+  top: 5px;
+  left: 10px;
+  margin-bottom: 0;
+}
+
+.grey strong {
+  font-weight: bold;
+}
+
+.grey>ul {
+  font-size: 12px;
+  padding-bottom: 15px;
+
+}
+
+.grey li {
+  margin: 10px;
+}
+
+.gx-left-content>h1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 10px;
+
+}
+
+@media screen and (max-width: 600px) {
+  .guide-content-wrap {
+    flex-direction: column;
+  }
+
+  .grey {
+    margin-left: -28px;
+  }
+
+  .gx-left-content>h1 {
+    font-size: 30px;
+    line-height: 39px;
+  }
+
+}
+
+@media screen and (min-width: 601px) {
+  .gx-left-content>h1 {
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .guide-content-wrap {
+    flex-direction: row;
+  }
+}
+</style>
+
+<div class="gx-product gx-row-flex-center" style="margin:20px 0;">
+    <div class="gx-table-list">
+        <div class="gx-col-flex gx-table-items">
+            <div>
+                <div></div>
+            </div>
+            <div><strong>Product</strong></div>
+            <div><strong>Ingredient Consistency Between Batches</strong></div>
+            <div><strong>Nutritional Analysis</strong></div>
+            <div><strong>Are feeding trials performed to prove nutritional
+                    adequacy?</strong></div>
+            <div><strong>Added ingredients for gut health</strong></div>
+            <div><strong>Ingredients for skin health</strong></div>
+            <div><strong>Total Omega Fatty Acids^</strong></div>
+            <div><strong>Price *As of 17/10/19</strong></div>
+            <div><strong>Days Per Bag</strong></div>
+            <div><strong>Cost Per Day</strong></div>
+        </div>
+        <div class="gx-col-flex gx-table-items">
+            <div>
+                
+            </div>
+            <div>Brand on Supermarket Shelf, 3kg</div>
+            <div>Vary depending on cost and availability.</div>
+            <div> Maximum or minimum levels only </div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/x-vector.png">
+            </div>
+            <div>Beet pulp</div>
+            <div>
+                <ul>
+                    <li>Fish and fish by-products (tuna and/or salmon)</li>
+                </ul>
+            </div>
+            <div>1.6%</div>
+            <div>$15.99</div>
+            <div>24</div>
+            <div>$0.68</div>
+        </div>
+        <div class="gx-col-flex gx-table-items">
+            <div>
+                
+            </div>
+            <div>Royal Canin Mini Puppy, 8kg</div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/check-vector.png">
+            </div>
+            <div>Detailed nutritional analysis provided</div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/check-vector.png">
+            </div>
+            <div>
+                <ul>
+                    <li>Beet pulp</li>
+                    <li>Prebiotics</li>
+                    <li>Yeast extracts</li>
+                    <li>Yucca extract</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Fish Oil</li>
+                </ul>
+            </div>
+            <div>4.7%</div>
+            <div>$83.43</div>
+            <div>75</div>
+            <div>$1.11</div>
+        </div>
+        <div class="gx-col-flex gx-table-items">
+            
+            <div>Hill's Science Diet Puppy Small Bites 7.03kg</div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/check-vector.png">
+            </div>
+            <div> Detailed nutritional analysis provided </div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/check-vector.png">
+            </div>
+            <div>
+                <ul>
+                    <li>Beet pulp</li>
+                    <li>Fruits &amp; vegetables</li>
+                    <li>Flaxseed</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Fish Oil</li>
+                </ul>
+            </div>
+            <div>5.0%</div>
+            <div>$89.99</div>
+            <div>61</div>
+            <div>$1.47</div>
+        </div>
+        <div class="gx-col-flex gx-table-items">
+            <div>
+                
+            </div>
+            <div>Orijen Puppy, 2kg</div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/check-vector.png">
+            </div>
+            <div> Detailed nutritional analysis provided </div>
+            <div><img src="https://storage.googleapis.com/petcircle-assets/images/puppy-nudge/x-vector.png">
+            </div>
+            <div>
+                <ul>
+                    <li>Fruits &amp; vegetables</li>
+                    <li>Chicory root</li>
+                    <li>Probiotics</li>
+                </ul>
+            </div>
+            <div>
+                <ul>
+                    <li>Fruits &amp; vegetables</li>
+                </ul>
+            </div>
+            <div>4.9%</div>
+            <div>$54.95</div>
+            <div>18</div>
+            <div>$2.99</div>
+        </div>
+    </div>
+</div>
