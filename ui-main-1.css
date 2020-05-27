@@ -1,0 +1,5833 @@
+
+.gradient-y {
+  border: 1px solid #c99d02;
+  color: #000000;
+  -webkit-box-shadow: 1px 1px 2px #a38265;
+  -moz-box-shadow: 1px 1px 2px #a38265;
+  box-shadow: 1px 1px 2px #a38265;
+  background-image: -webkit-linear-gradient(90deg, #fac728, #fff071);
+  background-image: -moz-linear-gradient(90deg, #fac728, #fff071);
+  background-image: -ms-linear-gradient(90deg, #fac728, #fff071);
+  background-image: -o-linear-gradient(90deg, #fac728, #fff071);
+  background-image: linear-gradient(0deg, #fac728, #fff071);
+}
+.gradient-g {
+  border: 1px solid #11938c;
+  color: white;
+  -webkit-box-shadow: 1px 1px 2px #00928c;
+  -moz-box-shadow: 1px 1px 2px #00928c;
+  box-shadow: 1px 1px 2px #00928c;
+  background-image: -webkit-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: -moz-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: -ms-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: -o-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: linear-gradient(0deg, #00928c, #00a5a3);
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: Helvetica, Arial, sans-serif !important;
+  font-weight: bold;
+  margin-bottom: 20px;
+  line-height: normal;
+  color: #000000;
+}
+h1 {
+  font-size: 55px;
+}
+h2 {
+  font-size: 40px;
+}
+h3 {
+  font-size: 25px;
+}
+h4 {
+  font-size: 18px;
+}
+p {
+  font-size: 13px;
+  color: #808084;
+  font-weight: normal;
+  margin-bottom: 18px;
+}
+@font-face {
+  font-family: 'petcircleico';
+  src: url('/petcircle-assets/stylesheets/fonts/petcircleico.eot?w1oum6');
+  src: url('/petcircle-assets/stylesheets/fonts/petcircleico.eot?w1oum6#iefix') format('embedded-opentype'), url('/petcircle-assets/stylesheets/fonts/petcircleico.ttf?w1oum6') format('truetype'), url('/petcircle-assets/stylesheets/fonts/petcircleico.woff?w1oum6') format('woff'), url('/petcircle-assets/stylesheets/fonts/petcircleico.svg?w1oum6#petcircleico') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+i {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'petcircleico' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.petcircle-paw:before {
+  content: "\e92b";
+}
+.petcircle-gel-foam:before {
+  content: "\e927";
+}
+.petcircle-toothbrush:before {
+  content: "\e928";
+}
+.petcircle-toothpaste:before {
+  content: "\e929";
+}
+.petcircle-water-drop:before {
+  content: "\e92a";
+}
+.petcircle-australia:before {
+  content: "\e900";
+}
+.petcircle-autodelivery .path1:before {
+  content: "\e901";
+  color: #000000;
+}
+.petcircle-autodelivery .path2:before {
+  content: "\e902";
+  margin-left: -1em;
+  color: #000000;
+}
+.petcircle-autodelivery .path3:before {
+  content: "\e903";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path4:before {
+  content: "\e904";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path5:before {
+  content: "\e905";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path6:before {
+  content: "\e906";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path7:before {
+  content: "\e907";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path8:before {
+  content: "\e908";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path9:before {
+  content: "\e90a";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path10:before {
+  content: "\e90b";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path11:before {
+  content: "\e90c";
+  margin-left: -1em;
+  color: #ffffff;
+}
+.petcircle-autodelivery .path12:before {
+  content: "\e90d";
+  margin-left: -1em;
+  color: #000000;
+}
+.petcircle-autodelivery .path13:before {
+  content: "\e90e";
+  margin-left: -1em;
+  color: #000000;
+}
+.petcircle-autodelivery .path14:before {
+  content: "\e90f";
+  margin-left: -1em;
+  color: #000000;
+}
+.petcircle-autodelivery .path15:before {
+  content: "\e910";
+  margin-left: -1em;
+  color: #000000;
+}
+.petcircle-bird:before {
+  content: "\e911";
+}
+.petcircle-bone:before {
+  content: "\e912";
+}
+.petcircle-broad:before {
+  content: "\e913";
+}
+.petcircle-bug:before {
+  content: "\e914";
+}
+.petcircle-calendar:before {
+  content: "\e915";
+}
+.petcircle-cat:before {
+  content: "\e916";
+}
+.petcircle-check-ico:before {
+  content: "\e917";
+}
+.petcircle-dog:before {
+  content: "\e918";
+}
+.petcircle-ear-mites:before {
+  content: "\e919";
+}
+.petcircle-fish:before {
+  content: "\e91a";
+}
+.petcircle-great-service:before {
+  content: "\e91b";
+}
+.petcircle-heart-worm:before {
+  content: "\e91c";
+}
+.petcircle-insect-bites:before {
+  content: "\e91d";
+}
+.petcircle-intestinal-worm:before {
+  content: "\e91e";
+}
+.petcircle-reptile:before {
+  content: "\e91f";
+}
+.petcircle-shipping:before {
+  content: "\e920";
+}
+.petcircle-shop-bag:before {
+  content: "\e921";
+}
+.petcircle-small-pet:before {
+  content: "\e922";
+}
+.petcircle-tick:before {
+  content: "\e923";
+}
+.petcircle-time:before {
+  content: "\e924";
+}
+.petcircle-water:before {
+  content: "\e925";
+}
+.petcircle-worm:before {
+  content: "\e926";
+}
+.petcircle-arrow_drop_down:before {
+  content: "\e5c5";
+}
+.petcircle-add:before {
+  content: "\e145";
+}
+.petcircle-add_box:before {
+  content: "\e146";
+}
+.petcircle-arrow_drop_up:before {
+  content: "\e5c7";
+}
+.petcircle-check:before {
+  content: "\e5ca";
+}
+.petcircle-check_box:before {
+  content: "\e834";
+}
+.petcircle-check_box_outline_blank:before {
+  content: "\e835";
+}
+.petcircle-navigate_before:before {
+  content: "\e408";
+}
+.petcircle-navigate_next:before {
+  content: "\e409";
+}
+.petcircle-close:before {
+  content: "\e5cd";
+}
+.petcircle-indeterminate_check_box:before {
+  content: "\e909";
+}
+.petcircle-keyboard_arrow_down:before {
+  content: "\e313";
+}
+.petcircle-keyboard_arrow_left:before {
+  content: "\e314";
+}
+.petcircle-keyboard_arrow_right:before {
+  content: "\e315";
+}
+.petcircle-keyboard_arrow_up:before {
+  content: "\e316";
+}
+.petcircle-play_circle_filled:before {
+  content: "\e038";
+}
+.petcircle-remove:before {
+  content: "\e15b";
+}
+.ui-left {
+  float: left;
+  width: 100%;
+}
+.no-margin {
+  margin: 0px !important;
+}
+/* .transform (@rotate: 0deg, @scale: 1, @skew: 1deg, @translate: 0px) {
+	-webkit-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-moz-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-o-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	-ms-transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+	transform: rotate(@rotate) scale(@scale) skew(@skew) translate(@translate);
+} */
+.ui-button {
+  display: inline-block;
+  padding: 10px 10px;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 15px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ui-button.gradient-y {
+  border: 1px solid #c99d02;
+  color: #000000;
+  -webkit-box-shadow: 1px 1px 2px #a38265;
+  -moz-box-shadow: 1px 1px 2px #a38265;
+  box-shadow: 1px 1px 2px #a38265;
+  background-image: -webkit-linear-gradient(90deg, #fac728, #fff071);
+  background-image: -moz-linear-gradient(90deg, #fac728, #fff071);
+  background-image: -ms-linear-gradient(90deg, #fac728, #fff071);
+  background-image: -o-linear-gradient(90deg, #fac728, #fff071);
+  background-image: linear-gradient(0deg, #fac728, #fff071);
+}
+.ui-button.gradient-y:hover {
+  text-decoration: underline;
+  color: #000000;
+  background-image: -webkit-linear-gradient(90deg, #fff071, #fac728);
+  background-image: -moz-linear-gradient(90deg, #fff071, #fac728);
+  background-image: -ms-linear-gradient(90deg, #fff071, #fac728);
+  background-image: -o-linear-gradient(90deg, #fff071, #fac728);
+  background-image: linear-gradient(0deg, #fff071, #fac728);
+}
+.ui-button.gradient-g {
+  border: 1px solid #11938c;
+  color: white;
+  -webkit-box-shadow: 1px 1px 2px #00928c;
+  -moz-box-shadow: 1px 1px 2px #00928c;
+  box-shadow: 1px 1px 2px #00928c;
+  background-image: -webkit-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: -moz-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: -ms-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: -o-linear-gradient(90deg, #00928c, #00a5a3);
+  background-image: linear-gradient(0deg, #00928c, #00a5a3);
+}
+.ui-button.gradient-g:hover {
+  text-decoration: underline;
+  color: white;
+  background-image: -webkit-linear-gradient(90deg, #00a5a3, #00928c);
+  background-image: -moz-linear-gradient(90deg, #00a5a3, #00928c);
+  background-image: -ms-linear-gradient(90deg, #00a5a3, #00928c);
+  background-image: -o-linear-gradient(90deg, #00a5a3, #00928c);
+  background-image: linear-gradient(0deg, #00a5a3, #00928c);
+}
+.ui-button.flat-y {
+  border: 3px solid #ffc766;
+  color: #000000;
+  background: #f3ea42;
+}
+.ui-button.flat-y:hover {
+  text-decoration: underline;
+}
+.ui-button.flat-g {
+  border: 3px solid #00ADAD;
+  color: white;
+  background: #2dbec0;
+}
+.ui-button.flat-g:hover {
+  text-decoration: underline;
+}
+.vets {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.vets li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.vets li img {
+  width: auto;
+}
+@media only screen and (max-width: 768px) {
+  .vets li img {
+    width: 120px;
+  }
+}
+.vets-details {
+  display: inline-block;
+  margin-right: 20px;
+  font-style: italic;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 17px;
+  color: #000000;
+}
+@media only screen and (max-width: 768px) {
+  .vets-details {
+    font-size: 14px;
+  }
+}
+.paws-list {
+  float: left;
+  width: 100%;
+}
+.paws-list li {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  position: relative;
+  padding-left: 30px;
+}
+.paws-list li:before {
+  content: '\e92b';
+  position: absolute;
+  font-family: 'petcircleico';
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+@media only screen and (max-width: 510px) {
+  .paws-list li {
+    font-size: 14px;
+    margin-bottom: 20px;
+    text-align: left;
+  }
+}
+.paws-list li a {
+  padding-left: 0px !important;
+  color: #000000;
+  text-decoration: underline;
+}
+main#main {
+  float: left;
+  width: 100%;
+  max-width: 100%;
+}
+.full-width-container {
+  float: left;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+}
+.brand h1,
+.brand h2,
+.brand h3 {
+  text-transform: lowercase;
+}
+.brand section {
+  float: left;
+  width: 100%;
+}
+.brand section .reviews {
+  float: left;
+  width: 100%;
+}
+.brand section .reviews ul {
+  float: left;
+  width: 100%;
+  padding: 40px 0px;
+  margin: 0px;
+}
+.brand section .reviews ul li {
+  float: left;
+  width: 100%;
+  margin-bottom: 50px;
+  margin: 0 2.2%;
+}
+.brand section .reviews ul li .thumbnail {
+  border: 0px;
+  float: left;
+  padding: 0px;
+  margin: 0px;
+  width: 25%;
+  text-align: center;
+}
+.brand section .reviews ul li .thumbnail img {
+  width: 200px;
+}
+.brand section .reviews ul li .thumbnail span {
+  font-weight: bold;
+}
+@media only screen and (max-width: 768px) {
+  .brand section .reviews ul li .thumbnail {
+    width: 100%;
+  }
+}
+.brand section .reviews ul li .reviewer-name {
+  float: left;
+  width: 75%;
+  padding-left: 15px;
+  padding-top: 10px;
+}
+.brand section .reviews ul li .reviewer-name span,
+.brand section .reviews ul li .reviewer-name p,
+.brand section .reviews ul li .reviewer-name img {
+  display: block;
+  font-size: 16px;
+}
+.brand section .reviews ul li .reviewer-name .name {
+  font-weight: bold;
+  font-size: 18px;
+}
+.brand section .reviews ul li .reviewer-name .date {
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+.brand section .reviews ul li .reviewer-name .stars {
+  width: 130px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section .reviews ul li .reviewer-name .stars {
+    display: inline-block;
+  }
+}
+.brand section .reviews ul li .reviewer-name .comment {
+  margin-bottom: 30px;
+  line-height: 24px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section .reviews ul li .reviewer-name .comment {
+    text-align: justify;
+    font-size: 13px;
+  }
+}
+.brand section .reviews ul li .reviewer-name .recomendation {
+  position: relative;
+  padding-left: 55px;
+  text-align: left;
+}
+.brand section .reviews ul li .reviewer-name .recomendation:before {
+  content: '';
+  position: absolute;
+  height: 40px;
+  width: 40px;
+  background: url(/petcircle-assets/images/icons/check-ico.png) no-repeat;
+  background-size: contain;
+  left: 0px;
+  top: -12px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section .reviews ul li .reviewer-name {
+    width: 100%;
+    padding-left: 0px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand section .reviews ul li {
+    width: 90%;
+    padding: 0 5%;
+    display: inline-block;
+    float: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand section .reviews ul {
+    text-align: center;
+  }
+}
+.brand section h3 {
+  font-size: 28px;
+  color: #000000;
+  text-align: center;
+}
+.brand section p {
+  font-size: 16px;
+  color: #000000;
+}
+.brand section.bottom p {
+  margin-bottom: 60px;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.bottom p {
+    line-height: 25px;
+  }
+}
+.brand section.bottom a {
+  margin-bottom: 60px;
+}
+.brand section.bottom #search-form {
+  margin-bottom: 60px;
+  width: 100%;
+  max-width: 100%;
+}
+.brand section.bottom #search-form #searchForm p.group button {
+  color: #fff;
+  background: #2dbec0;
+  padding: 10px 15px;
+  height: auto;
+  border: 0px;
+  border: 1px solid #2dbec0;
+  position: absolute;
+  right: 4px;
+}
+.brand section.bottom #search-form #searchForm p.group input {
+  height: auto;
+  padding: 11px 0px;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.bottom #search-form {
+    margin: 0px;
+    border: 1px solid #2dbec0;
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 991px) {
+  .brand section.bottom #search-form {
+    margin-right: 0px;
+  }
+}
+.brand section.full-width-section .content-banner {
+  float: left;
+  width: 100%;
+}
+.brand section.full-width-section .content-banner .banner {
+  float: left;
+  width: 100%;
+}
+.brand section.full-width-section .content-banner .caption {
+  float: left;
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.full-width-section .content-banner .caption h1 {
+    font-size: 32px !important;
+  }
+}
+.brand section.full-width-section .best-seller {
+  float: left;
+  width: 100%;
+}
+.brand section.full-width-section .best-seller .carousel {
+  float: left;
+  width: 100%;
+}
+.brand section.full-width-section .best-seller .carousel .best-seller-carousel {
+  float: left;
+  width: 100%;
+}
+.brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-wrapper-outer .owl-wrapper .owl-item {
+  text-align: center;
+  width: auto !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-wrapper-outer .owl-wrapper .owl-item .product {
+    width: 100%;
+    margin: 0px;
+  }
+}
+.brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-wrapper-outer .owl-wrapper .owl-item .product a figure img {
+  width: 250px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-wrapper-outer .owl-wrapper .owl-item .product.added {
+    display: none;
+  }
+}
+.brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-controls .owl-pagination {
+  display: none;
+}
+@media only screen and (max-width: 375px) {
+  .brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-controls .owl-pagination {
+    display: block;
+  }
+}
+@media only screen and (max-width: 375px) {
+  .brand section.full-width-section .best-seller .carousel .best-seller-carousel .owl-controls .owl-buttons {
+    display: none;
+  }
+}
+.brand section.hero-board {
+  text-align: center;
+  padding-top: 60px;
+}
+.brand section.hero-board .board {
+  float: left;
+  width: 100%;
+}
+.brand section.hero-board .board .logo {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.brand section.hero-board .board .main-product {
+  display: inline-block;
+  margin-bottom: 30px;
+}
+.brand section.hero-board .board p {
+  display: inline-block;
+  font-size: 22px;
+  line-height: normal;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.hero-board .board p {
+    font-size: 18px;
+  }
+}
+.brand section.hero-board .board .review {
+  display: inline-block;
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.brand section.hero-board .board .review img {
+  display: inline-block;
+  width: 250px;
+  margin-bottom: 15px;
+}
+.brand section.hero-board .board .review span {
+  display: block;
+  font-size: 20px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.hero-board .board .review span {
+    font-size: 14px;
+  }
+}
+.brand section.showcase-section {
+  background: white;
+}
+.brand section.showcase-section:last-of-type {
+  background: red;
+}
+.brand section.showcase-section .container-full-width {
+  float: left;
+  width: 100%;
+}
+.brand section.showcase-section .container-full-width .description {
+  display: table;
+}
+.brand section.showcase-section .container-full-width .description .showcase-content {
+  height: 500px;
+  display: table-cell;
+  vertical-align: middle;
+  text-align: center;
+}
+.brand section.showcase-section .container-full-width .description .showcase-content h3 {
+  display: inline-block;
+  width: 90%;
+  padding: 0 5%;
+  max-width: 500px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.showcase-section .container-full-width .description .showcase-content h3 {
+    width: 100%;
+    text-align: center !important;
+  }
+}
+.brand section.showcase-section .container-full-width .description .showcase-content p {
+  display: inline-block;
+  width: 90%;
+  padding: 0 5%;
+  max-width: 500px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.showcase-section .container-full-width .description .showcase-content p {
+    line-height: 25px;
+    padding: 0px;
+    text-align: center !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand section.showcase-section .container-full-width .description .showcase-content {
+    height: auto;
+    padding: 60px 0px;
+    display: block;
+  }
+}
+.brand section.showcase-section .container-full-width .image-place-holder {
+  height: 100%;
+  background: #00ADAD;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.showcase-section .container-full-width .image-place-holder {
+    height: 300px !important;
+    min-height: 100%;
+    width: 90% !important;
+    margin: 20px 5%;
+  }
+}
+.brand section.features {
+  text-align: center;
+}
+.brand section.features .thumbnail {
+  border: 0px;
+}
+.brand section.features .thumbnail img {
+  width: 100%;
+}
+.brand section.features strong {
+  font-size: 16px;
+}
+.brand section.features p {
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .brand section.features p {
+    line-height: 25px;
+  }
+}
+.row-no-gutter {
+  margin-right: 0;
+  margin-left: 0;
+}
+.row-no-gutter [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+/* 
+ * 	Core Owl Carousel CSS File
+ *	v1.3.3
+ */
+/* clearfix */
+.owl-carousel .owl-wrapper:after {
+  content: ".";
+  display: block;
+  clear: both;
+  visibility: hidden;
+  line-height: 0;
+  height: 0;
+}
+/* display none until init */
+.owl-carousel {
+  display: none;
+  position: relative;
+  width: 100%;
+  -ms-touch-action: pan-y;
+}
+.owl-carousel .owl-wrapper {
+  display: none;
+  position: relative;
+  -webkit-transform: translate3d(0px, 0px, 0px);
+}
+.owl-carousel .owl-wrapper-outer {
+  overflow: hidden;
+  position: relative;
+  width: 100%;
+}
+.owl-carousel .owl-wrapper-outer.autoHeight {
+  -webkit-transition: height 500ms ease-in-out;
+  -moz-transition: height 500ms ease-in-out;
+  -ms-transition: height 500ms ease-in-out;
+  -o-transition: height 500ms ease-in-out;
+  transition: height 500ms ease-in-out;
+}
+.owl-carousel .owl-item {
+  float: left;
+}
+.owl-controls .owl-page,
+.owl-controls .owl-buttons div {
+  cursor: pointer;
+}
+.owl-controls {
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+/* mouse grab icon */
+/* fix */
+.owl-carousel .owl-wrapper,
+.owl-carousel .owl-item {
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -webkit-transform: translate3d(0, 0, 0);
+  -moz-transform: translate3d(0, 0, 0);
+  -ms-transform: translate3d(0, 0, 0);
+}
+/*
+* 	Owl Carousel Owl Demo Theme 
+*	v1.3.3
+*/
+.owl-theme .owl-controls {
+  margin-top: 10px;
+  text-align: center;
+}
+/* Styling Next and Prev buttons */
+.owl-theme .owl-controls .owl-buttons div {
+  color: #FFF;
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+  margin: 5px;
+  padding: 3px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+  background: #869791;
+  filter: alpha(opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+}
+/* Clickable class fix problem with hover on touch devices */
+/* Use it for non-touch hover action */
+.owl-theme .owl-controls.clickable .owl-buttons div:hover {
+  filter: alpha(opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+  text-decoration: none;
+}
+/* Styling Pagination*/
+.owl-theme .owl-controls .owl-page {
+  display: inline-block;
+  zoom: 1;
+  *display: inline;
+  /*IE7 life-saver */
+}
+.owl-theme .owl-controls .owl-page:nth-child(8),
+.owl-theme .owl-controls .owl-page:nth-child(7) {
+  display: none;
+}
+.owl-theme .owl-controls .owl-page span {
+  display: block;
+  width: 12px;
+  height: 12px;
+  margin: 5px 7px;
+  filter: alpha(opacity=50);
+  /*IE7 fix*/
+  opacity: 0.5;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  background: #869791;
+}
+.owl-theme .owl-controls .owl-page.active span,
+.owl-theme .owl-controls.clickable .owl-page:hover span {
+  filter: alpha(opacity=100);
+  /*IE7 fix*/
+  opacity: 1;
+}
+/* If PaginationNumbers is true */
+.owl-theme .owl-controls .owl-page span.owl-numbers {
+  height: auto;
+  width: auto;
+  color: #FFF;
+  padding: 2px 10px;
+  font-size: 12px;
+  -webkit-border-radius: 30px;
+  -moz-border-radius: 30px;
+  border-radius: 30px;
+}
+/* preloading images */
+.owl-item.loading {
+  min-height: 150px;
+  background: url(AjaxLoader.gif) no-repeat center center;
+}
+.ui-gal {
+  float: left;
+  width: 100%;
+  position: relative;
+  z-index: 1;
+}
+.ui-gal .details {
+  padding: 0px;
+}
+.ui-gal .details h3 {
+  float: left;
+  width: 100%;
+  color: #000000;
+  font-size: 30px;
+  line-height: normal;
+}
+.ui-gal .details ul.tips {
+  float: left;
+  width: 100%;
+  margin-bottom: 6px;
+}
+.ui-gal .details ul.tips li {
+  color: #000000;
+  margin-bottom: 20px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+}
+.ui-gal .details ul.tips li a {
+  text-decoration: underline;
+  font-weight: bold;
+  color: #000000;
+}
+@media only screen and (max-width: 768px) {
+  .ui-gal .details ul.tips li {
+    font-size: 14px;
+    margin-bottom: 10px;
+  }
+}
+.ui-info-board {
+  display: table-cell;
+  vertical-align: middle;
+}
+.ui-info-board .details {
+  padding: 40px 30px;
+}
+@media only screen and (max-width: 510px) {
+  .ui-info-board .details {
+    text-align: center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .ui-info-board .details h2 {
+    text-align: left;
+    font-size: 32px;
+  }
+}
+.ui-info-board .details a {
+  padding-left: 30px;
+  padding-right: 30px;
+}
+@media only screen and (max-width: 510px) {
+  .ui-info-board .details a {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.ui-info-board .details p {
+  color: #000000;
+  font-size: 18px;
+  line-height: 26px;
+  text-align: left;
+}
+.ui-gal.description {
+  height: inherit;
+  margin-bottom: 30px;
+}
+.ui-gal.description .vets-details {
+  font-size: 17px;
+}
+@media only screen and (max-width: 510px) {
+  .ui-gal.description .vets-details {
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+.ui-gal.description h2 {
+  margin-bottom: 30px !important;
+}
+.ui-gal.description figure img {
+  width: 80%;
+}
+.ui-gal.description figure i {
+  font-size: 60px;
+  position: absolute;
+  right: 20%;
+  top: 2%;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  background: #689AC9;
+  padding: 10px;
+  font-size: 41px;
+}
+.ui-gal.description p {
+  padding-bottom: 0px;
+  font-size: 17px;
+}
+@media only screen and (max-width: 510px) {
+  .ui-gal.description p {
+    font-size: 14px;
+    line-height: normal;
+  }
+}
+.ui-gal.description .vets {
+  float: left;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.ui-gal.description .vets li {
+  display: inline-block;
+  margin-right: 20px;
+}
+.ui-gal.description .vets li img {
+  width: auto;
+}
+@media only screen and (max-width: 768px) {
+  .ui-gal.description .vets li img {
+    width: 120px;
+  }
+}
+.collection-main:not(.collection-id-christmas) {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.collection-main section {
+  float: left;
+  width: 100%;
+}
+.collection-main section .main-banner {
+  margin-bottom: 0px;
+}
+.collection-main section .main-banner #banner {
+  height: inherit;
+  position: relative;
+  margin-bottom: 0px;
+}
+.collection-main section .main-banner .caption {
+  float: left;
+  width: 100%;
+  width: 650px;
+  padding: 10px 30px 10px 170px;
+  position: absolute;
+  left: 0px;
+  top: 125px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-main section .main-banner .caption {
+    position: relative;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    float: left;
+    display: block;
+    padding: 20px;
+    background: #000000;
+  }
+}
+.collection-main section .main-banner .caption h1 {
+  color: white;
+  font-size: 61px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-main section .main-banner .caption h1 {
+    font-size: 36px;
+  }
+}
+.collection-main section .main-banner .caption p {
+  font-size: 22px;
+  color: white;
+  line-height: normal;
+}
+@media only screen and (max-width: 768px) {
+  .collection-main section .main-banner .caption p {
+    font-size: 16px;
+  }
+}
+.collection-main section .ui-height-guide {
+  float: left;
+  width: 100%;
+  height: inherit;
+}
+.collection-main section .ui-height-follow {
+  background: #e2f8f6;
+  display: table;
+}
+@media only screen and (max-width: 768px) {
+  .collection-main section .ui-height-follow {
+    height: auto !important;
+    margin-bottom: 15px;
+  }
+}
+.collection-main .list-item {
+  position: relative;
+  height: inherit;
+}
+.collection-main .list-item .item-icons {
+  position: absolute;
+  top: 0px;
+  right: 20px;
+}
+.collection-main .list-item .item-icons ul li {
+  margin-bottom: 10px;
+}
+.collection-main .list-item .item-icons ul li i {
+  font-size: 40px;
+}
+.collection-main .list-item .item-icons .petcircle-cat {
+  color: #fff;
+  background: #F37B76;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 5px;
+  font-size: 30px;
+}
+.collection-main .list-item .item-icons .petcircle-dog {
+  color: #fff;
+  background: #689AC9;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  padding: 5px;
+  font-size: 30px;
+}
+.collection-main .list-item .animation {
+  text-align: center;
+  font-size: 14px;
+}
+.collection-main .list-item .animation .item-brand {
+  font-weight: bold;
+}
+.collection-main .list-item .animation .item-display-name {
+  margin-bottom: 5px;
+}
+.collection-main .list-item .animation .item-price {
+  color: #808084;
+  font-size: 12px;
+  margin-bottom: 5px;
+}
+@media only screen and (max-width: 510px) {
+  .collection-main .list-item {
+    height: 300px !important;
+  }
+}
+.collection-main .shop-all {
+  float: left;
+  width: 100%;
+  text-align: center;
+}
+.collection-main .shop-all a {
+  float: left;
+  width: 100%;
+}
+@media only screen and (max-width: 510px) {
+  .collection-main .col-xs-3 {
+    /**/
+    width: 50%;
+    /**/
+    padding-bottom: 10px;
+  }
+}
+.collection-id-dental section {
+  margin-bottom: 60px;
+}
+.collection-id-dental section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/dental/main-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-dental section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-dental section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-dental section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-dental .top-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/dental/dental-tips.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-dental .top-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-dental .daily-dental-diets .image-place-holder {
+  background: url(/petcircle-assets/images/collection/dental/dental-diet.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-dental .daily-dental-diets .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-dental .prescription-dental-diets .image-place-holder {
+  background: url(/petcircle-assets/images/collection/dental/dental-prescription.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-dental .prescription-dental-diets .image-place-holder {
+    height: 340px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .dental-care-banner {
+    margin-bottom: 0px;
+  }
+}
+.dental-list {
+  float: left;
+  width: 100%;
+}
+.dental-list li {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  position: relative;
+  padding-left: 50px;
+}
+.dental-list li:nth-child(1):before {
+  content: '\e928';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 14px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+.dental-list li:nth-child(2):before {
+  content: '\e929';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 35px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+.dental-list li:nth-child(3):before {
+  content: '\e927';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 35px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+.dental-list li:nth-child(4):before {
+  content: '\e92a';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 35px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+@media only screen and (max-width: 510px) {
+  .dental-list li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+.collection-id-kitten-checklist section {
+  margin-bottom: 60px;
+}
+.collection-id-kitten-checklist section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-kitten-checklist section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-kitten-checklist section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-kitten-checklist .kitten-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-vet.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .kitten-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-kitten-checklist .feeding .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-essentials.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .feeding .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-kitten-checklist .parasite .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-friendly-parasite.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .parasite .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-kitten-checklist .training .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-toilet.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .training .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-kitten-checklist .playtime .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-play.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .playtime .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-kitten-checklist .cat-friendly .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-friendly-home.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .cat-friendly .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-kitten-checklist .grooming .image-place-holder {
+  background: url(/petcircle-assets/images/collection/kitten-checklist/kitten-checklist-dental.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-kitten-checklist .grooming .image-place-holder {
+    height: 340px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .dental-care-banner {
+    margin-bottom: 0px;
+  }
+}
+.collection-id-puppy-checklist section {
+  margin-bottom: 60px;
+}
+.collection-id-puppy-checklist section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-puppy-checklist section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-puppy-checklist section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-puppy-checklist .puppy-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/dental/dental-tips.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .puppy-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-puppy-checklist .puppy-feeding .image-place-holder {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-essentials.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .puppy-feeding .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-puppy-checklist .parasite-control .image-place-holder {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-parasite-ctrl.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .parasite-control .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-puppy-checklist .playtime .image-place-holder {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-play.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .playtime .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-puppy-checklist .training .image-place-holder {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-training.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .training .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-puppy-checklist .sleeping .image-place-holder {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-bed.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .sleeping .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-puppy-checklist .grooming .image-place-holder {
+  background: url(/petcircle-assets/images/collection/puppy-checklist/puppy-checklist-grooming.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-puppy-checklist .grooming .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-small-breed-checklist section {
+  margin-bottom: 60px;
+}
+.collection-id-small-breed-checklist section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/small-breed-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-small-breed-checklist section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-small-breed-checklist section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-small-breed-checklist .top-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/top-tips-image.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist .top-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-small-breed-checklist .food .image-place-holder {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/small-breed-food.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist .food .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-small-breed-checklist .toys-and-treats .image-place-holder {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/toys-treats-image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist .toys-and-treats .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-small-breed-checklist .walking-accessories .image-place-holder {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/walking-accessories-image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist .walking-accessories .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-small-breed-checklist .grooming .image-place-holder {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/grooming-image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist .grooming .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-small-breed-checklist .dental-health .image-place-holder {
+  background: url(/petcircle-assets/images/collection/small-breed-dogs/dental-health-image.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-small-breed-checklist .dental-health .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition section {
+  margin-bottom: 60px;
+}
+.collection-id-natural-nutrition section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/main-banner.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-natural-nutrition section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-natural-nutrition section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-natural-nutrition .natural-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/right1.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .natural-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-natural-nutrition .shop-canidae .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/left4.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .shop-canidae .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .shop-nutro .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/right3.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .shop-nutro .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .natural-provided .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/left2.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .natural-provided .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .natural-balanced .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/left5.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .natural-balanced .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .natural-pacific .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/right6.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .natural-pacific .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .better-nutrition .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/cat-natural-trees.PNG) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .better-nutrition .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .natural-diet .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/left8.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .natural-diet .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .natural-lamp .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/right9.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .natural-lamp .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .earthborn .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/right3.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .earthborn .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .k9-natural .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-nutrition/right6.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-nutrition .k9-natural .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-nutrition .better-nutrition .image-place-holder {
+  background: #000 url(/petcircle-assets/images/collection/natural-nutrition/cat-natural-trees.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+.collection-id-australia section {
+  margin-bottom: 60px;
+}
+.collection-id-australia section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-hero.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-australia section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-australia section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-australia .top-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-intro-image.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .top-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+
+.collection-id-australia .australia-black-hawk .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-blackhawk.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-black-hawk .image-place-holder {
+    height: 340px !important;
+  }
+}
+
+
+.collection-id-australia .australia-hep .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-hep.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-hep .image-place-holder {
+    height: 340px !important;
+  }
+}
+
+.collection-id-australia .australia-ivory-coat .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-ivory-coat.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-ivory-coat .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-australia .australia-savourlife .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-savourlife.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-savourlife .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-australia .advance .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-advance.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .advance .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-australia .australia-pure-treat-co .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-puretreatco.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-pure-treat-co .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-australia .australia-nutro .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-nutro.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-nutro .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-australia .australia-meals-for-mutts .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-meals-for-mutts.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-meals-for-mutts .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-australia .australia-natures-cuts .image-place-holder {
+  background: url(/petcircle-assets/images/collection/australia-day/australia-day-natures-cuts.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-australia .australia-natures-cuts .image-place-holder {
+    height: 340px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .dental-care-banner {
+    margin-bottom: 0px;
+  }
+}
+.dental-list {
+  float: left;
+  width: 100%;
+}
+.dental-list li {
+  margin-bottom: 30px;
+  float: left;
+  width: 100%;
+  font-size: 17px;
+  position: relative;
+  padding-left: 50px;
+}
+.dental-list li:nth-child(1):before {
+  content: '\e928';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 14px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+.dental-list li:nth-child(2):before {
+  content: '\e929';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 35px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+.dental-list li:nth-child(3):before {
+  content: '\e927';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 35px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+.dental-list li:nth-child(4):before {
+  content: '\e92a';
+  position: absolute;
+  font-family: 'petcircleico';
+  font-size: 35px;
+  top: 0px;
+  left: 0px;
+  color: #00ADAD;
+}
+@media only screen and (max-width: 510px) {
+  .dental-list li {
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment section {
+  margin-bottom: 60px;
+}
+.collection-id-flea-tick-and-worming-treatment section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-flea-tick-and-worming-treatment section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-flea-tick-and-worming-treatment section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-a .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-a.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-a .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-b .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-b.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-b .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-c .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-c.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-c .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-d .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-d.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-d .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-e .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-e.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-e .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-f .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-f.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-f .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-g .image-place-holder {
+  background: url(/petcircle-assets/images/collection/flea-and-tick/flea-tick-collection-page-option-g.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-flea-tick-and-worming-treatment .option-g .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-flea-tick-and-worming-treatment .option-g .ui-info-board .details a {
+  padding-left: 25px;
+  padding-right: 25px;
+}
+.collection-id-health section {
+  margin-bottom: 60px;
+}
+.collection-id-health section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/winter-collection/header.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-health section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-health section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-health .health-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/winter-collection/word-from-our-vet.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health .health-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-health .health-care .image-place-holder {
+  background: url(/petcircle-assets/images/collection/winter-collection/general-winter-health.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health .health-care .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-health .clothing .image-place-holder {
+  background: url(/petcircle-assets/images/collection/winter-collection/dress-for-the-season.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health .clothing .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-health .bedding .image-place-holder {
+  background: url(/petcircle-assets/images/collection/winter-collection/cozy-new-bed.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health .bedding .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-health .stay-fit .image-place-holder {
+  background: url(/petcircle-assets/images/collection/winter-collection/keep-warm-and-fit.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health .stay-fit .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-health .keeping-clean .image-place-holder {
+  background: url(/petcircle-assets/images/collection/winter-collection/healthy-coat-healthy-pet.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-health .keeping-clean .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-pet-living section {
+  margin-bottom: 60px;
+}
+.collection-id-natural-pet-living section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-pet-living-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-natural-pet-living section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+.collection-id-natural-pet-living section .main-banner .caption {
+  width: 750px;
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-natural-pet-living section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-natural-pet-living .natural-living-tips .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-living-tips.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-tips .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-natural-pet-living .natural-living-bath .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-pet-living-bath.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-bath .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-pet-living .natural-living-cleaning .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-pet-living-cleaning.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-cleaning .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-pet-living .natural-living-litter .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-pet-living-litter.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-litter .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-pet-living .natural-living-playtime .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-living-playtime.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-playtime .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-pet-living .natural-living-health .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-pet-living-health.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-health .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-natural-pet-living .natural-living-bedtime .image-place-holder {
+  background: url(/petcircle-assets/images/collection/natural-living/natural-pet-living-bedtime.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-natural-pet-living .natural-living-bedtime .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-staff-picks section {
+  margin-bottom: 60px;
+}
+.collection-id-staff-picks section .content .main-banner .wide-container #banner {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-staff-picks section .content .main-banner .wide-container #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-staff-picks section .content .main-banner .wide-container #banner {
+    background-position: right -50px center;
+  }
+}
+.collection-id-staff-picks section .content .main-banner .wide-container .caption {
+  width: 750px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-staff-picks section .content .main-banner .wide-container .caption {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-staff-picks section .content .main-banner .wide-container .caption h1 {
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-staff-picks section .content .container .ui-height-guide .image-place-holder {
+    height: 600px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-staff-picks section .content .container .ui-height-guide .image-place-holder {
+    height: 460px !important;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-staff-picks section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-staff-picks .intro-staff-picks h2 {
+    margin-top: 30px;
+  }
+}
+.collection-id-staff-picks .intro-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-intro.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .carla-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-carla.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-staff-picks .carla-staff-picks .image-place-holder {
+    background-position: center bottom;
+  }
+}
+.collection-id-staff-picks .ally-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-ally.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-staff-picks .ally-staff-picks .image-place-holder {
+    background-position: center -40px;
+  }
+}
+.collection-id-staff-picks .nolwenn-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-nolwenn.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-staff-picks .nolwenn-staff-picks .image-place-holder {
+    background-position: center -40px;
+  }
+}
+.collection-id-staff-picks .luka-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-luka.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .anna-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-anna.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .andrew-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-andrew.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .jess-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-jess.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .jen-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-jen.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .sarah-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-sarah.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-staff-picks .jess-staff-picks .image-place-holder {
+  background: url(/petcircle-assets/images/collection/staff-picks/staff-picks-jess.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-spring-health section {
+  margin-bottom: 60px;
+}
+.collection-id-spring-health section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+.collection-id-spring-health section .main-banner .caption {
+  width: 750px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health section .main-banner .caption {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-spring-health section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health .intro-spring-health .content {
+    margin-top: 30px;
+  }
+}
+.collection-id-spring-health .intro-spring-health .image-place-holder {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-intro-spring-health.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-spring-health .intro-spring-health .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health .intro-spring-health .image-place-holder {
+    height: 400px !important;
+    background-position: center center;
+  }
+}
+.collection-id-spring-health .spring-toys-leads .image-place-holder {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-toys-leads.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-spring-health .spring-toys-leads .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health .spring-toys-leads .image-place-holder {
+    height: 400px !important;
+    background-position: center -320px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health .spring-toys-leads .image-place-holder {
+    background-position: center;
+  }
+}
+.collection-id-spring-health .spring-pet-travel .image-place-holder {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-pet-travel.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-spring-health .spring-pet-travel .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health .spring-pet-travel .image-place-holder {
+    height: 400px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health .spring-pet-travel .image-place-holder {
+    background-position: center;
+  }
+}
+.collection-id-spring-health .spring-health-care .image-place-holder {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-health-care.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-spring-health .spring-health-care .image-place-holder {
+    background-position: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health .spring-health-care .image-place-holder {
+    height: 400px !important;
+    background-position: center -400px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health .spring-health-care .image-place-holder {
+    background-position: center center;
+  }
+}
+.collection-id-spring-health .spring-parasites .image-place-holder {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-pesky-parasites.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-spring-health .spring-parasites .image-place-holder {
+    background-position: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health .spring-parasites .image-place-holder {
+    height: 400px !important;
+    background-position: center -100px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health .spring-parasites .image-place-holder {
+    background-position: center center;
+  }
+}
+.collection-id-spring-health .spring-grooming .image-place-holder {
+  background: url(/petcircle-assets/images/collection/spring-health/spring-grooming.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-spring-health .spring-grooming .image-place-holder {
+    background-position: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-spring-health .spring-grooming .image-place-holder {
+    height: 400px !important;
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-spring-health .spring-grooming .image-place-holder {
+    background-position: center;
+  }
+}
+.collection-id-christmas-gifts-for-pets section {
+  margin-bottom: 60px;
+}
+.collection-id-christmas-gifts-for-pets section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/christmas-gift/christmas-gifts-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-christmas-gifts-for-pets section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+.collection-id-christmas-gifts-for-pets section .main-banner .caption {
+  width: 750px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets section .main-banner .caption {
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-christmas-gifts-for-pets section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-christmas-gifts-for-pets .intro .content {
+    margin-top: 30px;
+  }
+}
+.collection-id-christmas-gifts-for-pets .intro .image-place-holder {
+  background: url(/petcircle-assets/images/collection/christmas-gift/christmas-gifts-intro.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-christmas-gifts-for-pets .intro .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets .intro .image-place-holder {
+    height: 400px !important;
+    background-position: center center;
+  }
+}
+.collection-id-christmas-gifts-for-pets .dogs .image-place-holder {
+  background: url(/petcircle-assets/images/collection/christmas-gift/christmas-gifts-dogs.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-christmas-gifts-for-pets .dogs .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets .dogs .image-place-holder {
+    height: 400px !important;
+    background-position: center top;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-christmas-gifts-for-pets .dogs .image-place-holder {
+    background-position: center;
+  }
+}
+.collection-id-christmas-gifts-for-pets .cats .image-place-holder {
+  background: url(/petcircle-assets/images/collection/christmas-gift/christmas-gifts-cats.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-christmas-gifts-for-pets .cats .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets .cats .image-place-holder {
+    height: 400px !important;
+    background-position: center top;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-christmas-gifts-for-pets .cats .image-place-holder {
+    background-position: center;
+  }
+}
+.collection-id-christmas-gifts-for-pets .smallpets .image-place-holder {
+  background: url(/petcircle-assets/images/collection/christmas-gift/christmas-gifts-guinea-pig.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-christmas-gifts-for-pets .smallpets .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets .smallpets .image-place-holder {
+    height: 400px !important;
+    background-position: center -200px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-christmas-gifts-for-pets .smallpets .image-place-holder {
+    background-position: center center;
+  }
+}
+.collection-id-christmas-gifts-for-pets .petparents .image-place-holder {
+  background: url(/petcircle-assets/images/collection/christmas-gift/christmas-gifts-pet-parents.png) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .collection-id-christmas-gifts-for-pets .petparents .image-place-holder {
+    background-position: center;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-christmas-gifts-for-pets .petparents .image-place-holder {
+    height: 400px !important;
+    background-position: center -100px;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-christmas-gifts-for-pets .petparents .image-place-holder {
+    background-position: center center;
+  }
+}
+.collection-id-summer-health section {
+  margin-bottom: 60px;
+}
+.collection-id-summer-health section .main-banner #banner {
+  background: url(/petcircle-assets/images/collection/hello-summer/into-summer-collections-page-header.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health section .main-banner #banner {
+    background-position: right 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-summer-health section .main-banner #banner {
+    background-position: right -50px center;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-summer-health section {
+    margin-bottom: auto;
+  }
+}
+.collection-id-summer-health .intro-summer-health .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hello-summer/word-from-our-vetereinarians.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health .intro-summer-health .image-place-holder {
+    height: 340px !important;
+    background-position: top -45px right;
+  }
+}
+.collection-id-summer-health .summer-water-products .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hello-summer/splish-splash.jpg) no-repeat;
+  background-position: right;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health .summer-water-products .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-summer-health .summer-hydration .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hello-summer/hydration-is-key.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health .summer-hydration .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-summer-health .summer-sun-safe .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hello-summer/stay-sun-safe.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health .summer-sun-safe .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-summer-health .summer-parasites .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hello-summer/protect-against-heat-loving-parasites.jpg) no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health .summer-parasites .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-summer-health .summer-outdoors .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hello-summer/get-outside-and-enjoy-the-sunshine.jpg) no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-summer-health .summer-outdoors .image-place-holder {
+    height: 340px !important;
+  }
+}
+.collection-id-hot-deals section {
+  margin-bottom: 60px;
+}
+.collection-id-hot-deals section .content .main-banner .wide-container #banner {
+  background: url(/petcircle-assets/images/collection/hot-deals/hot-deals-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hot-deals section .content .main-banner .wide-container #banner {
+    background-position: left 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hot-deals section .content .main-banner .wide-container #banner {
+    background-position: left -50px center;
+  }
+}
+.collection-id-hot-deals section .content .main-banner .wide-container .caption {
+  width: 750px;
+  padding: 10px 30px 10px 50px;
+  top: 250px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hot-deals section .content .main-banner .wide-container .caption {
+    width: 100%;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hot-deals section .content .main-banner .wide-container .caption h1 {
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hot-deals section .content .container .ui-height-guide .image-place-holder {
+    height: 600px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hot-deals section .content .container .ui-height-guide .image-place-holder {
+    height: 460px !important;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-hot-deals section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hot-deals .hot-deals-intro h2 {
+    margin-top: 30px;
+  }
+}
+.collection-id-hot-deals .hot-deals-intro .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hot-deals/hot-deals-intro.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-hot-deals .hot-deals-medication .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hot-deals/hot-deals-medication.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hot-deals .hot-deals-medication .image-place-holder {
+    background-position: center bottom;
+  }
+}
+.collection-id-hot-deals .hot-deals-food .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hot-deals/hot-deals-food-for-life.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hot-deals .hot-deals-food .image-place-holder {
+    background-position: center -40px;
+  }
+}
+.collection-id-hot-deals .hot-deals-litter .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hot-deals/hot-deals-litter.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hot-deals .hot-deals-litter .image-place-holder {
+    background-position: center -40px;
+  }
+}
+.collection-id-hot-deals .hot-deals-treats .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hot-deals/hot-deals-treats.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hot-deals .hot-deals-treats .image-place-holder {
+    background-position: center right;
+  }
+}
+.collection-id-curious-box section {
+  margin-bottom: 60px;
+}
+.collection-id-curious-box section .content .main-banner .wide-container #banner {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-header.jpg) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-curious-box section .content .main-banner .wide-container #banner {
+    background-position: left 0px center;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box section .content .main-banner .wide-container #banner {
+    background-position: left -50px center;
+  }
+}
+.collection-id-curious-box section .content .main-banner .wide-container .caption {
+  width: 640px;
+  padding: 10px 30px 10px 50px;
+  top: 150px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-curious-box section .content .main-banner .wide-container .caption {
+    width: 100%;
+    top: 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-curious-box section .content .main-banner .wide-container .caption h1 {
+    line-height: 40px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-curious-box section .content .container .ui-height-guide .image-place-holder {
+    height: 600px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box section .content .container .ui-height-guide .image-place-holder {
+    height: 460px !important;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-curious-box section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box .curious-box-intro h2 {
+    margin-top: 30px;
+  }
+}
+.collection-id-curious-box .curious-box-intro .image-place-holder {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-1.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box .curious-box-intro .image-place-holder {
+    height: 300px !important;
+  }
+}
+.collection-id-curious-box .curious-box-contents .image-place-holder {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-2.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box .curious-box-contents .image-place-holder {
+    background-position: center bottom;
+  }
+}
+.collection-id-curious-box .curious-box-subscription .image-place-holder {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-3.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box .curious-box-subscription .image-place-holder {
+    background-position: center -40px;
+  }
+}
+.collection-id-curious-box .curious-box-different-boxes .image-place-holder {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-4.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-curious-box .curious-box-different-boxes .image-place-holder {
+    background-position: center -40px;
+  }
+}
+.collection-id-curious-box .curious-box-shipping .image-place-holder {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-5.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-curious-box .curious-box-shipping .image-place-holder {
+    background-position: center right;
+  }
+}
+.collection-id-curious-box .curious-box-shop .image-place-holder {
+  background: url(/petcircle-assets/images/collection/curious-box/the-curious-box-6.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-curious-box .curious-box-shop .image-place-holder {
+    background-position: center right;
+  }
+}
+.collection-id-hills-puppy section {
+  margin-bottom: 60px;
+}
+.collection-id-hills-puppy section .content .main-banner .wide-container a {
+  height: 450px;
+}
+.collection-id-hills-puppy section .content .main-banner .wide-container #banner {
+  background: url(/petcircle-assets/images/collection/hills-puppy/hills-puppy-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hills-puppy section .content .main-banner .wide-container #banner {
+    background-position: left 100% center;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hills-puppy section .content .main-banner .wide-container #banner {
+    background-position: left 100% center;
+    height: 100%;
+  }
+}
+.collection-id-hills-puppy section .content .main-banner .wide-container .caption {
+  width: 720px;
+  padding: 10px 30px 10px 50px;
+  top: 210px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hills-puppy section .content .main-banner .wide-container .caption {
+    width: 100%;
+    top: 0;
+  }
+}
+.collection-id-hills-puppy section .content .main-banner .wide-container .caption h1 {
+  color: white;
+  line-height: 1.2;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hills-puppy section .content .container .ui-height-guide .image-place-holder {
+    height: 600px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hills-puppy section .content .container .ui-height-guide .image-place-holder {
+    height: 460px !important;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-hills-puppy section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hills-puppy .hills-puppy-summary h2 {
+    margin-top: 30px;
+  }
+}
+.collection-id-hills-puppy .hills-puppy-summary .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hills-puppy/hills-puppy-summary.png) center center no-repeat;
+  background-size: cover;
+}
+.collection-id-hills-kitten section {
+  margin-bottom: 60px;
+}
+.collection-id-hills-kitten section .content .main-banner .wide-container a {
+  height: 450px;
+}
+.collection-id-hills-kitten section .content .main-banner .wide-container #banner {
+  background: url(/petcircle-assets/images/collection/hills-kitten/hills-kitten-hero.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hills-kitten section .content .main-banner .wide-container #banner {
+    background-position: left 100% center;
+    height: 100%;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hills-kitten section .content .main-banner .wide-container #banner {
+    background-position: left 100% center;
+    height: 100%;
+  }
+}
+.collection-id-hills-kitten section .content .main-banner .wide-container .caption {
+  width: 720px;
+  padding: 10px 30px 10px 50px;
+  top: 210px;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hills-kitten section .content .main-banner .wide-container .caption {
+    width: 100%;
+    top: 0;
+  }
+}
+.collection-id-hills-kitten section .content .main-banner .wide-container .caption h1 {
+  color: white;
+  line-height: 1.2;
+  font-size: 42px;
+  text-transform: uppercase;
+}
+@media only screen and (max-width: 768px) {
+  .collection-id-hills-kitten section .content .container .ui-height-guide .image-place-holder {
+    height: 600px !important;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hills-kitten section .content .container .ui-height-guide .image-place-holder {
+    height: 460px !important;
+  }
+}
+@media only screen and (max-width: 510px) {
+  .collection-id-hills-kitten section {
+    margin-bottom: auto;
+  }
+}
+@media only screen and (max-width: 414px) {
+  .collection-id-hills-kitten .hills-kitten-summary h2 {
+    margin-top: 30px;
+  }
+}
+.collection-id-hills-kitten .hills-kitten-summary .image-place-holder {
+  background: url(/petcircle-assets/images/collection/hills-kitten/hills-kitten-summary.png) center center no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 900px) {
+  .ui-discovery .discover #article #leftPanel.affix {
+    width: 30%;
+  }
+}
+.ui-discovery .discover #article #leftPanel.affix-bottom {
+  position: absolute;
+  width: 290px;
+}
+.ui-discovery .instagram-container {
+  /* center text horizontally and vertically on image hover */
+}
+.ui-discovery .instagram-container h2 {
+  font-size: 28px;
+}
+.ui-discovery .instagram-container .img-handler {
+  padding: 6px 6px;
+}
+.ui-discovery .instagram-container .img-featured-container {
+  overflow: hidden;
+  position: relative;
+  height: 182px;
+}
+.ui-discovery .instagram-container .img-featured-container img {
+  width: 100%;
+}
+.ui-discovery .instagram-container .img-featured-container .img-backdrop {
+  background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.ui-discovery .instagram-container .img-featured-container:hover > .img-backdrop {
+  opacity: 1;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0 30px;
+  text-align: center;
+  line-height: 20px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  z-index: 2;
+  opacity: 0;
+  transition: all .2s ease;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container .fa-instagram {
+  font-size: 40px;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container p {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.ui-discovery .instagram-container .img-featured-container:hover .description-container {
+  opacity: 1;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container .caption {
+  display: none;
+  margin-bottom: 10px;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container .likes,
+.ui-discovery .instagram-container .img-featured-container .description-container .comments {
+  margin: 0 5px;
+}
+.discover-landing {
+  float: left;
+  width: 100%;
+  padding-top: 20px;
+}
+.discover-landing section.top-content .wrap {
+  float: left;
+  width: 100%;
+  padding: 40px 40px;
+}
+@media only screen and (max-width: 900px) {
+  .discover-landing section.top-content .wrap {
+    padding: 0px;
+  }
+}
+.discover-landing section.top-content .wrap h1 {
+  text-align: center;
+  color: #007483;
+  margin-bottom: 0px;
+  font-weight: normal;
+}
+.discover-landing section.top-content .wrap h2 {
+  text-align: center;
+  color: #007483;
+  font-weight: normal;
+  margin-bottom: 50px;
+}
+.discover-landing .top-content-slider {
+  border-bottom: 1px solid #1cb1b9;
+  margin-bottom: 60px;
+}
+.discover-landing .top-content-slider:hover ul.flex-direction-nav li.flex-nav-prev a {
+  left: -90px;
+  opacity: 1;
+}
+.discover-landing .top-content-slider:hover ul.flex-direction-nav li.flex-nav-next a {
+  right: -90px;
+  opacity: 1;
+}
+@media only screen and (max-width: 900px) {
+  .discover-landing .top-content-slider ul.flex-direction-nav {
+    display: none;
+  }
+}
+.discover-landing .top-content-slider ul.flex-direction-nav li.flex-nav-prev a {
+  left: -500px;
+  opacity: 0;
+  top: 45%;
+}
+.discover-landing .top-content-slider ul.flex-direction-nav li.flex-nav-next a {
+  right: -500px;
+  opacity: 0;
+  top: 45%;
+}
+.discover-landing .top-content-slider .slide-wrap {
+  float: left;
+  width: 100%;
+  padding: 20px 30px;
+  background: #f8f8f8;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  margin-bottom: 60px;
+  margin-top: 40px;
+}
+.discover-landing .top-content-slider .slide-wrap h3 {
+  text-align: center;
+  width: 100%;
+  float: left;
+  text-transform: uppercase;
+  color: #545454;
+}
+.discover-landing .top-content-slider .slide-wrap #discover-slide {
+  background: none;
+  float: left;
+  width: 100%;
+  border: 0px;
+  margin: 0px;
+  -webkit-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -moz-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  -o-box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+  box-shadow: 0 0px 0px rgba(0, 0, 0, 0);
+}
+.discover-landing .top-content-slider .slide-wrap #discover-slide .flex-viewport ul.slides li a img {
+  margin-bottom: 20px;
+}
+.discover-landing .top-content-slider .slide-wrap #discover-slide .flex-viewport ul.slides li p {
+  font-size: 16px;
+  color: #565656;
+  padding: 0px;
+  font-weight: normal;
+  text-align: left;
+  margin-bottom: 0px;
+}
+.discover-landing .top-content-slider .slide-wrap #discover-slide .flex-viewport ul.slides li p a {
+  display: inline-block;
+  font-size: 18px;
+  /* color: #00adad; */
+  position: relative;
+  font-weight: bold;
+  font-family: Helvetica, Arial, sans-serif;
+  padding: 10px 0px;
+}
+.discover-landing .top-content-slider .slide-wrap #discover-slide .flex-viewport ul.slides li p a:hover {
+  color: #029191;
+}
+.discover-landing .top-content-slider .slide-wrap #discover-slide .flex-viewport ul.slides li p a:after {
+  display: inline-block;
+  margin-left: 6px;
+  background: url(/petcircle-assets/images/arrow3.png) left top no-repeat;
+  width: 6px;
+  height: 9px;
+  vertical-align: middle;
+  content: "";
+}
+.discover-landing section.discover-more {
+  margin-bottom: 80px;
+  margin-top: 40px;
+}
+.discover-landing section.discover-more a {
+  float: left;
+  width: 100%;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .discover-landing section.discover-more a {
+    margin-bottom: 16px;
+  }
+}
+.discover-landing section.discover-more a img {
+  width: 100%;
+}
+.discover-landing section.discover-more a .caption {
+  position: absolute;
+  bottom: 0px;
+  left: 0px;
+  width: 100%;
+  padding: 10px 15px;
+}
+.discover-landing section.discover-more a .caption h4 {
+  text-transform: uppercase;
+  color: #fff;
+  line-height: normal;
+  margin-bottom: 0;
+  font-size: 20px;
+}
+.discover-landing section.discover-more a .caption p {
+  color: #fff;
+  font-size: 16px;
+  line-height: 20px;
+  margin: 0;
+}
+.discover-landing section {
+  float: left;
+  width: 100%;
+}
+.discover-landing section .panel {
+  float: left;
+  width: 100%;
+  margin-bottom: 80px;
+  padding-bottom: 20px;
+}
+.discover-landing section .panel img {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.discover-landing section .panel ul {
+  float: left;
+  width: 100%;
+}
+.discover-landing section .panel ul li {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.discover-landing section .panel ul li a {
+  color: #00ADAD;
+  font-size: 17px;
+  text-decoration: underline;
+}
+.discover-landing section .panel .ui-more {
+  position: relative;
+  padding-left: 25px;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 17px;
+}
+.discover-landing section .panel .ui-more:hover {
+  color: #00ADAD;
+}
+.discover-landing section .panel .ui-more:focus {
+  color: #00ADAD;
+}
+.discover-landing section .panel .ui-more:before {
+  content: ' ';
+  position: absolute;
+  height: 21px;
+  width: 20px;
+  top: 0px;
+  left: 0px;
+  background: url(/petcircle-assets/images/ui-plus-button.png) no-repeat;
+  background-position: left -27px top;
+}
+.discover-landing section .panel .ui-less {
+  position: relative;
+  padding-left: 25px;
+  font-weight: bold;
+  text-rendering: optimizeLegibility;
+  font-size: 17px;
+}
+.discover-landing section .panel .ui-less:hover {
+  color: #00ADAD;
+}
+.discover-landing section .panel .ui-less:focus {
+  color: #00ADAD;
+}
+.discover-landing section .panel .ui-less:before {
+  content: ' ';
+  position: absolute;
+  height: 21px;
+  width: 20px;
+  top: 0px;
+  left: 0px;
+  background: url('/petcircle-assets/images/ui-plus-button.png') no-repeat;
+  background-position: left -1px top;
+}
+.discover-landing section p {
+  font-size: 17px;
+  line-height: normal;
+  color: #000000;
+  margin-bottom: 20px;
+}
+.ui-discovery .discover {
+  float: left;
+  width: 100%;
+  margin-top: 20px;
+}
+.ui-discovery .discover #heroImage {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover #heroImage img {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover .category {
+  float: left;
+  width: 100%;
+  border: 1px solid #808084;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  margin-bottom: 30px;
+}
+.ui-discovery .discover #article {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover #article #fullPanel {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover #article #fullPanel img {
+  float: left;
+  width: 100%;
+  margin-bottom: 30px;
+}
+.ui-discovery .discover #article #fullPanel .copy {
+  float: left;
+  width: 100%;
+}
+@media only screen and (max-width: 900px) {
+  .ui-discovery .discover #article #fullPanel .copy {
+    margin: 0px;
+  }
+}
+.ui-discovery .discover #article #fullPanel .copy h1 {
+  float: left;
+  width: 100%;
+  color: #000000;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.ui-discovery .discover #article #fullPanel .copy p {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #808084;
+  line-height: 25px;
+}
+.ui-discovery .discover #article #fullPanel .copy .share {
+  text-align: right;
+}
+.ui-discovery .discover #article #fullPanel .copy ul.index {
+  margin-bottom: 30px;
+}
+.ui-discovery .discover #article #fullPanel .copy ul.index li a {
+  text-decoration: underline;
+}
+.ui-discovery .discover #article #fullPanel .featureCopy {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ui-discovery .discover #article #fullPanel .featureCopy p {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+}
+.ui-discovery .discover #article #fullPanel .featureCopy ul {
+  float: left;
+  width: 100%;
+  margin: 0px;
+}
+.ui-discovery .discover #article #fullPanel .featureCopy ul li {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.ui-discovery .discover #article #fullPanel .featureCopy > * {
+  margin: auto;
+  width: auto;
+}
+.ui-discovery .discover #article #rightPanel {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover #article #rightPanel img {
+  float: left;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.ui-discovery .discover #article #rightPanel .copy {
+  float: left;
+  width: 100%;
+}
+@media only screen and (max-width: 900px) {
+  .ui-discovery .discover #article #rightPanel .copy {
+    margin: 0px;
+  }
+}
+.ui-discovery .discover #article #rightPanel .copy h1 {
+  float: left;
+  width: 100%;
+  color: #000000;
+  font-weight: bold;
+  font-size: 32px;
+  font-family: Helvetica, Arial, sans-serif;
+}
+.ui-discovery .discover #article #rightPanel .copy p {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  font-family: Helvetica, Arial, sans-serif;
+  color: #808084;
+  line-height: 25px;
+}
+.ui-discovery .discover #article #rightPanel .copy p a {
+  color: #00adad;
+}
+.ui-discovery .discover #article #rightPanel .copy .share {
+  text-align: right;
+}
+.ui-discovery .discover #article #rightPanel .copy iframe {
+  width: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .ui-discovery .discover #article #rightPanel .copy iframe {
+    height: auto;
+  }
+}
+.ui-discovery .discover #article #rightPanel .featureCopy {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px;
+  padding: 20px;
+  border: 1px solid #d1d1d1;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ui-discovery .discover #article #rightPanel .featureCopy p {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+}
+.ui-discovery .discover #article #rightPanel .featureCopy ul {
+  float: left;
+  width: 100%;
+  margin: 0px;
+}
+.ui-discovery .discover #article #rightPanel .featureCopy ul li {
+  float: left;
+  width: 100%;
+  font-size: 14px;
+  padding-bottom: 15px;
+}
+.ui-discovery .discover #article #rightPanel .featureCopy > * {
+  margin: auto;
+  width: auto;
+}
+.ui-discovery .discover #article #leftPanel {
+  float: left;
+  width: 100%;
+  padding: 20px;
+  background: #f0f0f0;
+  border: 1px solid #d1d1d1;
+  margin-top: 30px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+}
+.ui-discovery .discover #article #leftPanel div {
+  float: left;
+  width: 100%;
+  margin: 0px;
+  padding: 15px 0px;
+  border-top: 1px solid #fff;
+  border-bottom: 1px solid #d8d8d8;
+}
+.ui-discovery .discover #article #leftPanel div:first-child {
+  border-top: 0px;
+}
+.ui-discovery .discover #article #leftPanel div:last-child {
+  border-bottom: 0px;
+}
+.ui-discovery .discover #article #leftPanel div p {
+  font-size: 14px;
+  margin-bottom: 0px;
+}
+.ui-discovery .discover #article #leftPanel div p small {
+  display: block;
+  text-transform: uppercase;
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+.ui-discovery .discover #article #leftPanel div ul {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover #article #leftPanel div ul li {
+  float: left;
+  width: 100%;
+  list-style: none;
+}
+.ui-discovery .discover #article #leftPanel div ul li a {
+  float: left;
+  width: 100%;
+}
+.ui-discovery .discover #article #leftPanel div ul li a img {
+  float: left;
+  width: 100%;
+  min-width: inherit;
+}
+.ui-discovery .discover #article #leftPanel .author {
+  text-align: center;
+}
+.ui-discovery .discover #article #leftPanel .author img {
+  width: auto;
+  height: auto;
+}
+.ui-discovery .discover #article #leftPanel .author span {
+  font-size: 22px;
+  color: #000000;
+  font-style: normal;
+}
+.ui-discovery .discover #article #leftPanel .tags span {
+  font-style: italic;
+}
+.ui-discovery .discover #article #leftPanel .postsList img {
+  display: block;
+}
+.ui-discovery .discover #article #leftPanel.affix {
+  top: 0px;
+  width: 290px;
+  margin-bottom: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .ui-discovery .discover #article #leftPanel.affix {
+    position: relative;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 900px) {
+  .ui-discovery .discover #article #leftPanel.affix {
+    width: 30%;
+  }
+}
+.ui-discovery .discover #article #leftPanel.affix-bottom {
+  position: absolute;
+  width: 290px;
+}
+.ui-discovery .instagram-container {
+  /* center text horizontally and vertically on image hover */
+}
+.ui-discovery .instagram-container h2 {
+  font-size: 28px;
+}
+.ui-discovery .instagram-container .img-handler {
+  padding: 6px 6px;
+}
+.ui-discovery .instagram-container .img-featured-container {
+  overflow: hidden;
+  position: relative;
+  height: 182px;
+}
+.ui-discovery .instagram-container .img-featured-container img {
+  width: 100%;
+}
+.ui-discovery .instagram-container .img-featured-container .img-backdrop {
+  background: linear-gradient(135deg, rgba(38, 163, 255, 0.85), rgba(83, 201, 179, 0.85));
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  z-index: 1;
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+.ui-discovery .instagram-container .img-featured-container:hover > .img-backdrop {
+  opacity: 1;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container {
+  color: #fff;
+  font-size: 16px;
+  line-height: 1.2;
+  padding: 0 30px;
+  text-align: center;
+  line-height: 20px;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  transform-style: preserve-3d;
+  z-index: 2;
+  opacity: 0;
+  transition: all .2s ease;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container .fa-instagram {
+  font-size: 40px;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container p {
+  font-weight: 300;
+  margin-bottom: 0;
+}
+.ui-discovery .instagram-container .img-featured-container:hover .description-container {
+  opacity: 1;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container .caption {
+  display: none;
+  margin-bottom: 10px;
+}
+.ui-discovery .instagram-container .img-featured-container .description-container .likes,
+.ui-discovery .instagram-container .img-featured-container .description-container .comments {
+  margin: 0 5px;
+}
+.brand.greenies br {
+  display: none;
+}
+.brand.greenies .hero-board {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .hero-board .board .logo {
+    width: 200px ;
+  }
+}
+.brand.greenies section.ui-video {
+  background-color: #f9f7f7;
+  margin: 90px auto;
+}
+.brand.greenies section.ui-video .ui-video {
+  margin-bottom: 90px;
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter {
+  display: table;
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 {
+  display: table-cell;
+  vertical-align: middle;
+  float: none !important;
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description {
+  height: auto !important;
+  margin: 0 auto;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content {
+  text-align: left !important;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content {
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content {
+    padding: 30px 0 !important;
+  }
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content p {
+  line-height: 1.4;
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content p:last-child {
+  padding-top: 0 !important;
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content * {
+  max-width: 550px !important;
+  text-align: left !important;
+  padding: 0 0 15px !important;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content * {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content * {
+    width: 100% !important;
+  }
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .image-place-holder {
+  height: auto !important;
+  background-color: transparent !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .image-place-holder {
+    height: auto !important;
+    width: 90% !important;
+  }
+}
+.brand.greenies section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .image-place-holder img {
+  width: 100%;
+  height: auto;
+}
+.brand.greenies .full-width-section .collection.brands h3 {
+  margin-top: 20px;
+}
+.brand.greenies .full-width-section .collection.brands .owl-wrapper {
+  width: 100% !important;
+  text-align: center;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.greenies .full-width-section .collection.brands .owl-wrapper {
+    text-align: center;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .full-width-section .collection.brands .owl-wrapper {
+    font-size: 26px !important;
+    width: calc(200%) !important;
+  }
+}
+@media only screen and (max-width: 480px) {
+  .brand.greenies .full-width-section .collection.brands .owl-wrapper {
+    font-size: 26px !important;
+    width: 100% !important;
+  }
+}
+.brand.greenies .full-width-section .collection.brands .owl-wrapper .owl-item {
+  width: 12.5% !important;
+  float: none;
+  margin: 0 auto;
+  display: inline-block;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.greenies .full-width-section .collection.brands .owl-wrapper .owl-item {
+    width: auto !important;
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .full-width-section .collection.brands .owl-wrapper .owl-item {
+    width: calc(16.66666667%) !important;
+    max-width: 300px;
+  }
+}
+.brand.greenies .full-width-section .collection.brands .owl-wrapper .owl-item:first-child,
+.brand.greenies .full-width-section .collection.brands .owl-wrapper .owl-item:last-child {
+  display: none;
+}
+.brand.greenies .full-width-section .content-banner .banner-1 {
+  height: 550px;
+  background: url('/petcircle-assets/images/brands/bg-wide.png') no-repeat top center;
+  background-size: cover;
+  background-position-y: 0px;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .full-width-section .content-banner .banner-1 {
+    height: 140px !important;
+    background-size: 200%;
+    background-position: center;
+    background-position-x: 60%;
+  }
+}
+.brand.greenies .full-width-section .content-banner .banner-2 {
+  height: 550px;
+  background: url('/petcircle-assets/images/greenies.png') no-repeat;
+  background-size: cover;
+  background-position-y: 0px;
+  margin-bottom: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .full-width-section .content-banner .banner-2 {
+    height: 400px !important;
+    background-size: 100%;
+    background-position: center;
+  }
+}
+.brand.greenies .full-width-section .content-banner .caption {
+  text-align: center;
+}
+.brand.greenies .full-width-section .content-banner .caption h1 {
+  font-size: 46px;
+  margin-bottom: 60px;
+}
+.brand.greenies .full-width-section .content-banner .caption .container .row .col-sm-12 h2 {
+  margin: 70px auto;
+}
+.brand.greenies .section .ui-video {
+  padding-top: 90px;
+  margin-bottom: 150px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .section .ui-video {
+    padding: 0px;
+    margin: 30px;
+  }
+}
+.brand.greenies .section .ui-video h2 {
+  font-size: 45px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.greenies .section .ui-video h2 {
+    font-size: 26px !important;
+  }
+}
+.brand.greenies .section .ui-video p {
+  font-size: 20px;
+  margin-bottom: 60px;
+}
+.brand.greenies section.features .container {
+  max-width: 1260px !important;
+}
+.brand.greenies section.features .container .col-sm-4 {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.brand.greenies section.features .container .col-sm-4 strong {
+  font-size: 20px;
+  display: block;
+  padding-bottom: 10px;
+}
+.brand.greenies section.features .container .col-sm-4 p {
+  font-size: 16px;
+  line-height: 1.5;
+}
+.brand.greenies section.bottom .col-sm-12 h3 {
+  margin-top: 30px;
+}
+.brand.greenies section.bottom .col-sm-12 p {
+  font-size: 16px;
+  line-height: 1.5;
+  max-width: 815px;
+  margin: 0 auto 40px;
+}
+.brand.greenies iframe .player .video-wrapper {
+  background: #fff;
+}
+.brand.nutro {
+  display: block;
+}
+.brand.nutro h1 {
+  text-align: center;
+  padding: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro h1 {
+    padding: 10px 0;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro #content h3 {
+    font-size: 28px !important;
+  }
+}
+.brand.nutro .hero-board {
+  background: url('/petcircle-assets/images/brands/nutro-hero-bg.png') no-repeat scroll top center transparent;
+  background-size: cover;
+  text-align: center;
+  position: relative;
+}
+.brand.nutro .hero-board:before {
+  content: "";
+  display: block;
+  background-color: #fff;
+  width: 100%;
+  position: absolute;
+  bottom: 0;
+  height: 40%;
+}
+.brand.nutro .hero-board .container {
+  background: url('/petcircle-assets/images/brands/nutro-hero-sketch.png') no-repeat scroll top center transparent;
+  background-size: 100%;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .hero-board {
+    background-position: top -148px left -734px;
+    background-size: inherit;
+  }
+}
+.brand.nutro section.quality-food {
+  background: url('/petcircle-assets/images/brands/nutro-quality-pet-food-bg.png') no-repeat scroll top center transparent;
+  background-size: 100% 370px;
+  text-align: center;
+  margin-top: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.quality-food .row.mobile-gallery + .row {
+    background-color: #fff;
+  }
+}
+.brand.nutro section.quality-food .quality-food {
+  text-align: center;
+}
+.brand.nutro section.quality-food .quality-food h2 {
+  padding-top: 39.9px;
+  padding-bottom: 30px;
+  font-size: 26px;
+}
+.brand.nutro section.quality-food .quality-food p {
+  font-size: 18px;
+  line-height: 1.4;
+  display: inline-block;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 760px;
+  padding: 40px 0;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.quality-food .quality-food p {
+    font-size: 16px;
+    padding: 20px 0;
+  }
+}
+.brand.nutro section.quality-food .quality-food p:last-child {
+  padding-top: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.quality-food {
+    background-size: cover;
+    margin-bottom: 60px;
+  }
+  .brand.nutro section.quality-food .mobile-gallery .col-xs-6:nth-child(odd) img {
+    float: right;
+  }
+  .brand.nutro section.quality-food .mobile-gallery .col-xs-6:nth-child(even) img {
+    float: left;
+  }
+}
+.brand.nutro section.quality-food .support-images img {
+  float: none;
+  display: inline-block;
+  margin: 0 auto;
+  height: 280px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.quality-food .support-images img {
+    margin-bottom: 30px;
+    height: auto;
+  }
+}
+.brand.nutro .more-about-nutro {
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.brand.nutro .more-about-nutro h2 {
+  text-align: inherit;
+}
+.brand.nutro .more-about-nutro p.read-more {
+  color: #00acac;
+  font-size: 18px;
+}
+.brand.nutro .more-about-nutro a {
+  float: none;
+  display: inline-block;
+  width: 90%;
+  max-width: 277px;
+  margin: 30px auto 0;
+}
+.brand.nutro .more-about-nutro a img {
+  width: 100%;
+}
+.brand.nutro .container .board .hero-product {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+}
+.brand.nutro .container .board img {
+  clear: both;
+  float: none;
+  display: block;
+  margin: 0 auto;
+}
+.brand.nutro .container .board .main-product {
+  padding-top: 60px;
+}
+.brand.nutro .container .board p {
+  font: 24px/1.17 Helvetica, Arial, sans-serif;
+  display: block;
+  width: 90%;
+  max-width: 760px;
+  margin: 20px auto;
+}
+.brand.nutro .container .board .review span {
+  display: block;
+  width: 90%;
+  max-width: 345px;
+  margin: 15px auto;
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter {
+  display: table;
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 {
+  display: table-cell;
+  vertical-align: middle;
+  float: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 {
+    display: block !important;
+    width: 100% !important;
+  }
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description {
+  height: auto !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description {
+    width: 90%;
+    margin: 0 auto;
+  }
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content {
+  text-align: left !important;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content {
+    height: auto !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content {
+    padding: 30px 0 !important;
+  }
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content p {
+  line-height: 1.4;
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content p:last-child {
+  padding-top: 0 !important;
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content * {
+  max-width: 550px !important;
+  text-align: left !important;
+  padding: 0 0 15px !important;
+  width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content * {
+    width: 80% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .description .showcase-content * {
+    width: 100% !important;
+  }
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .image-place-holder {
+  height: auto !important;
+  background-color: transparent !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .image-place-holder {
+    height: auto !important;
+    width: 90% !important;
+  }
+}
+.brand.nutro section.showcase-section .container-full-width .row-no-gutter .col-sm-6 .image-place-holder img {
+  width: 100%;
+  height: auto;
+}
+.brand.nutro .reviews h1 {
+  margin: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .reviews h1 {
+    padding: 0px;
+    font-size: 32px;
+  }
+}
+.brand.nutro .reviews .reviewer-name .comment {
+  /* 				text-align: justify;
+font-size: 13px; */
+}
+.brand.nutro .reviews ul {
+  padding: 0;
+}
+.brand.nutro .reviews ul li .reviewer-name .recomendation:before {
+  background: url('/petcircle-assets/images/icons/check-ico.png') no-repeat;
+  background-size: cover;
+}
+.brand.nutro .reviews ul li .reviewer-name .comment {
+  /* line-height: 18px; */
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .reviews ul li:last-child {
+    margin-bottom: 30px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .reviews ul li {
+    padding: 15px 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .reviews ul {
+    padding: 0 !important;
+  }
+}
+.brand.nutro #reviews {
+  padding: 60px 0;
+}
+.brand.nutro .nutro-ingredients-heading {
+  text-align: center;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .nutro-ingredients-heading {
+    font-size: 26px;
+  }
+}
+.brand.nutro .nutro-ingredients-heading p {
+  font-size: 24px;
+  line-height: 1.17;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .nutro-ingredients-heading p {
+    font-size: 16px;
+  }
+}
+.brand.nutro .nutro-ingredients {
+  width: 100%;
+  position: relative;
+  text-align: center;
+  min-height: 1000px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul {
+  width: 100%;
+  height: 920px;
+  position: relative;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li {
+  width: 50%;
+  max-width: 230px;
+  position: absolute;
+}
+@media only screen and (max-width: 980px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li {
+    position: static;
+    width: 49%;
+    max-width: 100%;
+    display: inline-block;
+    margin: 0 auto;
+    vertical-align: top;
+    text-align: center;
+    padding: 15px;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li img,
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li span {
+  display: block;
+  clear: both;
+  position: relative;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li span {
+  color: #000;
+  text-align: left;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li span strong {
+  display: block;
+  font: bold 30px Georgia, Times New Roman, serif;
+  padding: 7px 0;
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li span {
+    margin-left: 0 !important;
+    text-align: center !important;
+    margin-bottom: 30px;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li span:before,
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li span:after {
+  content: "";
+  position: absolute;
+  height: 5px;
+  display: block;
+}
+@media only screen and (max-width: 980px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li span:before,
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li span:after {
+    display: none;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li img {
+    display: inline-block;
+    margin: 0 auto;
+    float: none;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.chicken {
+  top: 75px;
+  left: 5%;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.chicken span {
+  margin-left: -90px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.chicken span:before {
+  background-color: #96D2C1;
+  width: 135px;
+  top: 20px;
+  left: 240px;
+  -webkit-transform: rotate(35deg);
+  -moz-transform: rotate(35deg);
+  -ms-transform: rotate(35deg);
+  -o-transform: rotate(35deg);
+  transform: rotate(35deg);
+}
+@media only screen and (max-width: 1260px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.chicken {
+    left: 5%;
+    top: 75px;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.chicken span {
+    margin-left: 0;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.chicken span:before {
+    left: 150px;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.fish {
+  top: 100px;
+  right: -5%;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.fish span {
+  margin-left: 90px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.fish span:before {
+  background-color: #DDB0D3;
+  left: -260px;
+  top: 105px;
+  width: 295px;
+  -webkit-border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
+  -moz-background-clip: padding;
+  -webkit-background-clip: padding-box;
+  background-clip: padding-box;
+  -webkit-transform: rotate(125deg);
+  -moz-transform: rotate(125deg);
+  -ms-transform: rotate(125deg);
+  -o-transform: rotate(125deg);
+  transform: rotate(125deg);
+}
+@media only screen and (max-width: 1260px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.fish {
+    right: -1%;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.fish span:before {
+    left: -230px;
+    top: 109px;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice {
+  bottom: 70px;
+  left: 0;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice span {
+  margin-left: -50px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice span:before {
+  top: -247px;
+  left: 205px;
+  background-color: #D29B5F;
+  width: 90px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -ms-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+@media only screen and (max-width: 1260px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice {
+    bottom: 150px;
+    left: 0%;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice span {
+    margin-left: 0;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice span:before {
+    left: 155px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.rice {
+    bottom: 70px;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb {
+  bottom: 10px;
+  right: 35px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb span {
+  margin-left: 35px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb span:after {
+  background-color: #1A9253;
+  left: 190px;
+  top: -145px;
+  -webkit-transform: rotate(165deg);
+  -moz-transform: rotate(165deg);
+  -ms-transform: rotate(165deg);
+  -o-transform: rotate(165deg);
+  transform: rotate(165deg);
+  width: 95px;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb span:before {
+  background-color: #1A9253;
+  left: -25px;
+  top: -220px;
+  -webkit-transform: rotate(220deg);
+  -moz-transform: rotate(220deg);
+  -ms-transform: rotate(220deg);
+  -o-transform: rotate(220deg);
+  transform: rotate(220deg);
+  width: 40px;
+}
+@media only screen and (max-width: 1260px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb {
+    right: 190px;
+    bottom: -35px;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb span {
+    margin-left: 0;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb span:before {
+    left: 20px;
+    top: -280px;
+    transform: rotate(270deg);
+    width: 115px;
+  }
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb span:after {
+    left: 221px;
+    top: -169px;
+    width: 111px;
+  }
+}
+@media only screen and (max-width: 1024px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul li.lamb {
+    right: 100px;
+    bottom: -100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper ul {
+    height: auto;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper img {
+  position: absolute;
+}
+@media only screen and (max-width: 980px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper img.oz,
+  .brand.nutro .nutro-ingredients .scalable-wrapper img.nz {
+    display: none;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper img.oz {
+  top: 200px;
+  left: 50%;
+  -webkit-transform: translate(-50%, 0);
+  -moz-transform: translate(-50%, 0);
+  -ms-transform: translate(-50%, 0);
+  -o-transform: translate(-50%, 0);
+  transform: translate(-50%, 0);
+}
+@media only screen and (max-width: 1260px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper img.oz {
+    position: absolute;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 980px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper img.oz {
+    top: 0px;
+    left: 0px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    display: inline-block;
+    position: static;
+    margin-bottom: 30px;
+  }
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper img.nz {
+  bottom: 400px;
+  right: -15%;
+}
+.brand.nutro .nutro-ingredients .scalable-wrapper img.aus {
+  margin-bottom: 30px;
+  position: relative;
+}
+@media only screen and (max-width: 980px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper img.aus {
+    bottom: 0px;
+    top: 0px;
+    left: 0px;
+    -webkit-transform: none;
+    -moz-transform: none;
+    -ms-transform: none;
+    -o-transform: none;
+    transform: none;
+    display: block;
+    position: relative;
+    margin-bottom: 30px;
+    display: inline-block;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper img.aus {
+    width: 80%;
+    max-width: 200px;
+  }
+}
+@media only screen and (max-width: 1260px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper {
+    -webkit-transform: scale(0.77);
+    -moz-transform: scale(0.77);
+    -ms-transform: scale(0.77);
+    -o-transform: scale(0.77);
+    transform: scale(0.77);
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro .nutro-ingredients .scalable-wrapper {
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transform: scale(1);
+  }
+}
+.brand.nutro section.full-width-section .collection.brands .carousel h3 {
+  margin-top: 30px !important;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper {
+    text-align: center;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper {
+    font-size: 26px !important;
+    width: calc(600%) !important;
+  }
+}
+.brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+  width: auto !important;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    width: calc(16.66666667%) !important;
+  }
+}
+.brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item:first-child,
+.brand.nutro section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item:last-child {
+  display: none;
+}
+.brand.nutro section.bottom.more-about .more-about-nutro {
+  margin-bottom: 30px !important;
+}
+.brand.nutro section.bottom.more-about .more-about-nutro p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 0 !important;
+}
+@media only screen and (max-width: 768px) {
+  #content h1 {
+    font-size: 42px !important;
+  }
+  #content h2 {
+    font-size: 30px !important;
+  }
+  #content h3 {
+    font-size: 35px !important;
+  }
+  #content p {
+    font-size: 18px !important;
+  }
+  #content .faq ul {
+    font-size: 20px !important;
+  }
+}
+.capitalise {
+  text-transform: capitalize !important;
+  float: none !important;
+  clear: none;
+  display: run-in;
+  width: auto !important;
+}
+.brand.advance section.showcase-section {
+  margin: 50px auto;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section {
+    margin: 10px auto;
+  }
+}
+.brand.advance section.showcase-section .container-full-width {
+  float: none;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  max-width: 1300px;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.showcase-section .container-full-width {
+    max-width: 960px !important;
+    width: 90%;
+  }
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .image-place-holder {
+  background-color: transparent !important;
+  min-height: auto;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .image-place-holder {
+    height: auto !important;
+    min-height: auto;
+    float: left;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .image-place-holder img {
+    float: none !important;
+  }
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description {
+  display: block;
+  max-width: 470px;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description {
+    max-width: 430px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description {
+    max-width: 100% !important;
+  }
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content,
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review {
+  display: block !important;
+  height: auto !important;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content p,
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p {
+  font: normal 18px/1.4 Helvetica, Arial, sans-serif;
+  text-align: left;
+  padding: 0;
+  max-width: auto;
+  width: auto;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content {
+  text-align: left !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content {
+    padding: 30px 0 0 !important;
+    width: 80%;
+    margin: 0 auto;
+  }
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content p {
+    text-align: left !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content * {
+    display: inline-block;
+    float: none;
+    vertical-align: top;
+    text-align: left;
+    width: 90%;
+    margin: 0 auto;
+    padding: 0;
+    max-width: 570px;
+  }
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content h3 {
+  text-align: left !important;
+  padding: 0;
+  width: auto;
+  max-width: auto;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description .showcase-content p {
+    margin: 30px 0 0;
+  }
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review {
+  display: inline-block;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review {
+    width: 80%;
+    display: block;
+    margin: 15px 10% 0;
+    height: auto;
+  }
+  .brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p:first-child > strong {
+    display: block;
+  }
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p span {
+  font: 100 0.77em "Helvetica Neue", Helvetica, Arial, sans-serif;
+  letter-spacing: 0.5px;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p img {
+  float: none;
+  clear: both;
+  height: auto;
+  display: block;
+  margin: 10px 0 30px;
+  max-width: 145px;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p a {
+  width: 100%;
+  display: block;
+  max-width: 335px;
+  margin: 0 auto;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p a img {
+  height: auto;
+  width: 100%;
+  max-width: 335px;
+  margin: 0 auto;
+  -webkit-animation: opacity 1s ease-in-out;
+  /* Safari 4+ */
+  -moz-animation: opacity 1s ease-in-out;
+  /* Fx 5+ */
+  -o-animation: opacity 1s ease-in-out;
+  /* Opera 12+ */
+  animation: opacity 1s ease-in-out;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p a img:hover {
+  opacity: 0.6;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review p:last-of-type {
+  font-style: italic;
+  font-weight: 100;
+}
+.brand.advance section.showcase-section .container-full-width .row-no-gutter .description .review a.ui-button {
+  padding: 7px 30px;
+  margin-top: 20px;
+}
+.brand.advance section.hero-board {
+  background: url('/petcircle-assets/images/brands/advance-hero-image.png') no-repeat top center transparent;
+  background-size: cover;
+  position: relative;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.hero-board {
+    background: none #004e96;
+  }
+}
+.brand.advance section.hero-board:before {
+  content: "";
+  position: absolute;
+  display: block;
+  width: 100%;
+  height: 29vh;
+  bottom: 0;
+  left: auto;
+  right: auto;
+  background: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.hero-board:before {
+    height: 250px;
+  }
+}
+.brand.advance section.hero-board .board .logo {
+  display: block;
+  padding: 0 10%;
+  float: left;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.hero-board .board .logo {
+    float: none;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.hero-board .board .main-product {
+    padding-top: 0;
+  }
+}
+.brand.advance section.wide .ui-container-faq {
+  width: 100%;
+  max-width: 1280px;
+  text-align: center;
+  margin: 0 auto;
+}
+.brand.advance section.wide .ui-container-faq .col-sm-4 {
+  max-width: 400px;
+  float: none;
+  display: inline-block;
+  margin: 0 auto;
+  text-align: left;
+  width: 90%;
+  vertical-align: top;
+}
+.brand.advance section.wide .ui-container-faq .col-sm-4 p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.wide .ui-container-faq .col-sm-4 {
+    max-width: 300px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.wide .ui-container-faq .col-sm-4 {
+    max-width: 90% !important;
+    text-align: center;
+  }
+  .brand.advance section.wide .ui-container-faq .col-sm-4 p {
+    margin-bottom: 30px;
+  }
+}
+.brand.advance section.faq {
+  background: #004e96;
+  padding: 50px 0;
+  margin: 50px auto;
+  text-align: left;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.faq {
+    margin: 0;
+  }
+}
+.brand.advance section.faq .ui-container-faq {
+  width: 100%;
+  max-width: 1280px;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.faq .ui-container-faq {
+    max-width: 960px !important;
+    width: 90%;
+  }
+}
+.brand.advance section.faq h1,
+.brand.advance section.faq p {
+  color: #fff;
+  text-align: center;
+}
+.brand.advance section.faq p {
+  font-size: 18px;
+  line-height: 1.4;
+  max-width: 880px;
+  margin: 0 auto 50px;
+}
+.brand.advance section.faq ul {
+  font: bold 23px/1.3 Georgia, Times New Roman, serif;
+  color: #fff;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.faq ul {
+    text-align: center;
+  }
+}
+.brand.advance section.faq ul li {
+  display: inline-block;
+  float: none;
+  width: 100%;
+  padding: 25px 0px 25px 90px;
+  max-width: 620px;
+  text-align: left;
+  vertical-align: top;
+  position: relative;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.faq ul li {
+    max-width: 440px !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.faq ul li {
+    margin: 0 auto;
+    padding: 15px 0 15px 55px;
+    font-size: 17px;
+    width: 95%;
+    max-width: 95% !important;
+  }
+}
+.brand.advance section.faq ul li:nth-child(even) {
+  padding-right: 0;
+}
+.brand.advance section.faq ul li:before {
+  content: '';
+  position: absolute;
+  left: 0;
+  height: 55px;
+  width: 55px;
+  background: url('/petcircle-assets/images/brands/advance-paw.png') no-repeat;
+  background-size: contain;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.faq ul li:before {
+    background: url('/petcircle-assets/images/brands/advance-paw.png') no-repeat;
+    position: absolute;
+    background-size: contain;
+    left: 0;
+    content: '';
+    width: 40px;
+    height: 40px;
+  }
+}
+.brand.advance section.faq ul li a {
+  color: inherit !important;
+  text-decoration: underline;
+}
+.brand.advance section.australian-pets {
+  background: url('/petcircle-assets/images/brands/advance-sub-hero-fullwidth.png') no-repeat top center transparent;
+  background-size: cover;
+  height: 620px;
+  margin: 90px 0;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.australian-pets {
+    margin: 50px 0;
+  }
+}
+.brand.advance section.australian-pets .container-full-width {
+  max-width: 100%;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.australian-pets .container-full-width {
+    max-width: 100% !important;
+    width: 100%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.australian-pets .container-full-width .col-sm-12 {
+    float: none;
+    height: 620px;
+  }
+}
+.brand.advance section.australian-pets .container-full-width .col-sm-12 .caption {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 40%;
+  padding: 50px 7%;
+  position: absolute;
+  top: 250px;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.advance section.australian-pets .container-full-width .col-sm-12 .caption {
+    max-width: 55% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.australian-pets .container-full-width .col-sm-12 .caption {
+    bottom: 0;
+    padding: 50px 5%;
+    max-width: 100% !important;
+    text-align: center;
+  }
+}
+.brand.advance section.australian-pets .container-full-width .col-sm-12 .caption * {
+  color: #fff;
+}
+.brand.advance section.australian-pets .container-full-width .col-sm-12 .caption h2 {
+  font-size: 30px;
+}
+.brand.advance section.australian-pets .container-full-width .col-sm-12 .caption p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+.brand.advance section.features.wide {
+  padding: 90px 0px;
+  text-align: left;
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.features.wide {
+    padding: 30px 0;
+  }
+}
+.brand.advance section.features.wide h2 {
+  text-align: center;
+}
+.brand.advance section.features.wide .thumbnail {
+  text-align: center;
+}
+.brand.advance section.features.wide .thumbnail img {
+  width: 100%;
+}
+.brand.advance section.features.wide strong {
+  font-size: 16px;
+}
+.brand.advance section.features.wide p {
+  margin-bottom: 60px;
+}
+.brand.advance section.bottom .col-sm-12 p {
+  font-size: 18px;
+  line-height: 1.4;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper {
+    text-align: center;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper {
+    font-size: 26px !important;
+    width: calc(600%) !important;
+  }
+}
+.brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+  width: auto !important;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    width: calc(16.66666667%) !important;
+  }
+}
+.brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item:first-child,
+.brand.advance section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item:last-child {
+  display: none;
+}
+.brand.mydog section.hero-board {
+  padding-top: 0;
+}
+.brand.mydog section.hero-board .container-full-width .hero-product {
+  text-align: center;
+  background: url("/petcircle-assets/images/brands/mydog-hero-bg.png") no-repeat top center #000;
+  background-size: auto 70%;
+  position: relative;
+}
+.brand.mydog section.hero-board .container-full-width .hero-product img {
+  clear: both;
+  float: none;
+  display: block;
+  margin: 0 auto;
+  position: relative;
+}
+.brand.mydog section.hero-board .container-full-width .hero-product img.logo {
+  padding-top: 45px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.hero-board .container-full-width .hero-product img.logo {
+    width: 60%;
+  }
+}
+.brand.mydog section.hero-board .container-full-width .hero-product:before {
+  content: "";
+  display: block;
+  width: 100%;
+  background-color: #fff;
+  position: absolute;
+  bottom: 0;
+  height: 30%;
+}
+.brand.mydog section.hero-board .container {
+  padding: 0 0 30px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.hero-board .container {
+    padding: 0;
+  }
+}
+.brand.mydog section.hero-board .container .board h1 {
+  padding-top: 60px;
+}
+.brand.mydog section.hero-board .container .board .product-description {
+  max-width: 500px;
+  margin: 0 auto;
+}
+.brand.mydog section.hero-board .container .board .product-description .review {
+  padding-top: 30px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.hero-board .container .board {
+    width: 90%;
+    margin: 0 5%;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.showcase-section .showcase-content {
+    padding: 30px 0 !important;
+  }
+}
+.brand.mydog section.showcase-section .showcase-content * {
+  text-align: left !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.showcase-section .showcase-content * {
+    text-align: center !important;
+  }
+}
+.brand.mydog section.showcase-section .showcase-content a.ui-button-yellow {
+  width: auto;
+  font-size: 18px;
+  padding: 5px 15px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.showcase-section .showcase-content a.ui-button-yellow {
+    display: inline-block;
+    float: none;
+    margin-top: 30px;
+  }
+}
+.brand.mydog section.showcase-section .image-place-holder {
+  min-height: 500px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.showcase-section .image-place-holder {
+    min-height: 300px;
+  }
+}
+.brand.mydog section.showcase-section .image-place-holder.pl-1 {
+  background: url("/petcircle-assets/images/brands/mydog-feature-1.png") no-repeat bottom center #000;
+  background-size: cover;
+}
+.brand.mydog section.showcase-section .col-sm-12 {
+  text-align: center;
+}
+.brand.mydog section.showcase-section .col-sm-12 h1 {
+  margin: 90px auto;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.showcase-section .col-sm-12 h1 {
+    margin: 0 0 30px;
+  }
+}
+.brand.mydog section.showcase-section .col-sm-12 h3 {
+  text-align: left;
+  margin: 30px auto 60px;
+  text-transform: capitalize !important;
+  padding-top: 60px;
+  border-top: 5px dashed #d4ba8a;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.showcase-section .col-sm-12 h3 {
+    text-align: center;
+  }
+}
+.brand.mydog section.home-recipes {
+  text-align: center;
+}
+.brand.mydog section.home-recipes .container-full-width {
+  float: none;
+  width: 90%;
+  margin: 0 auto;
+  max-width: 1080px;
+  display: inline-block;
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .description {
+  display: block;
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content {
+  text-align: right !important;
+  display: block;
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content .mydog-product-image {
+  display: inline-block;
+  float: none;
+  max-width: 440px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content .mydog-product-image {
+    display: block;
+    text-align: center !important;
+    margin: 0 auto;
+  }
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content .mydog-product-image img {
+  max-width: 333px;
+  margin-top: -40px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content .mydog-product-image img {
+    margin-top: -30px;
+  }
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content .mydog-product-image p {
+  font-size: 18px;
+  line-height: 1.33;
+  padding: 0;
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .description .showcase-content .mydog-product-image.canned img {
+  width: 280px;
+  margin: 0px auto 30px auto;
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .img-place-holder {
+  width: 100%;
+  margin: 0 auto;
+  float: none;
+  max-width: 540px;
+}
+.brand.mydog section.home-recipes .container-full-width .col-sm-6 .img-place-holder img {
+  width: 100%;
+  height: auto;
+  min-height: auto;
+}
+.brand.mydog section.home-recipes .container-full-width div[class*="pull"].col-sm-6 .showcase-content {
+  text-align: left !important;
+}
+@media only screen and (max-width: 1000px) {
+  .brand.mydog section.home-recipes .container-full-width div[class="col-sm-6"] .mydog-product-image p {
+    width: 80%;
+    padding: 0;
+    margin: 0 10%;
+  }
+}
+@media only screen and (max-width: 1900px) {
+  .brand.mydog section.full-width-section .collection.brands .carousel .owl-wrapper {
+    text-align: center;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.full-width-section .collection.brands .carousel .owl-wrapper {
+    font-size: 26px !important;
+    width: calc(600%) !important;
+  }
+}
+.brand.mydog section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+  width: auto !important;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.mydog section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    width: calc(16.66666667%) !important;
+  }
+}
+.brand.mydog section.full-row-feature {
+  background: url('/petcircle-assets/images/brands/mydog-sub-hero-fullwidth.png') no-repeat top center transparent;
+  background-size: cover !important;
+  height: 620px;
+  margin: 50px 0 130px;
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.full-row-feature {
+    margin: 50px 0;
+    background-position: 75% 100% !important;
+    background-size: 106% auto;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.full-row-feature .col-sm-12 {
+    float: none;
+    height: 620px;
+  }
+}
+.brand.mydog section.full-row-feature .col-sm-12 .caption {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 45%;
+  padding: 35px 7%;
+  position: absolute;
+  top: 180px;
+  text-align: left;
+}
+@media only screen and (max-width: 1280px) {
+  .brand.mydog section.full-row-feature .col-sm-12 .caption {
+    max-width: 50%;
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.mydog section.full-row-feature .col-sm-12 .caption {
+    bottom: 0;
+    padding: 50px 5%;
+    max-width: 100%;
+    text-align: center;
+    top: auto;
+    left: 0;
+  }
+}
+.brand.mydog section.full-row-feature .col-sm-12 .caption * {
+  color: #fff;
+}
+.brand.mydog section.full-row-feature .col-sm-12 .caption h2 {
+  font-size: 30px;
+}
+.brand.mydog section.full-row-feature .col-sm-12 .caption p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+.brand.mydog section.full-row-feature .col-sm-12 .caption .ui-button {
+  padding: 10px 39px;
+}
+.brand.mydog span.tm {
+  font-size: 60%!important;
+  display: inline-block !important;
+  position: relative;
+  top: -10px;
+}
+.brand.optimum section .ui-centerd h2 {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+.brand.optimum section .thumbnail {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+.brand.optimum section .quality-meter {
+  float: left;
+  width: 100%;
+  margin: 60px 0px;
+  padding: 60px 0px;
+  background: #f9f7f7;
+}
+.brand.optimum section .quality-meter h3 {
+  position: relative;
+  float: left;
+  width: 100%;
+  padding-bottom: 90px;
+}
+.brand.optimum section .quality-meter h3 span {
+  position: absolute;
+  font-size: 18px;
+  font-family: Helvetica, Arial, sans-serif;
+  text-transform: capitalize;
+}
+.brand.optimum section .quality-meter h3 span.high {
+  right: 0px;
+  bottom: 0px;
+}
+.brand.optimum section .quality-meter h3 span.low {
+  left: 0px;
+  bottom: 0px;
+}
+.brand.optimum section .quality-meter h3.nutritions:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  left: 0px;
+  top: 50px;
+  background: url('/petcircle-assets/images/brands/meter-2.png') no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.optimum section .quality-meter h3.nutritions:after {
+    background-size: 100%;
+  }
+}
+.brand.optimum section .quality-meter h3.pricing:after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 75px;
+  left: 0px;
+  top: 50px;
+  background: url('/petcircle-assets/images/brands/meter-1.png') no-repeat;
+  background-size: cover;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.optimum section .quality-meter h3.pricing:after {
+    margin-bottom: 30px;
+    background-size: 100%;
+  }
+}
+.brand.optimum section.showcase-section .container-full-width {
+  float: none;
+  width: 100%;
+  max-width: 1600px !important;
+  display: block;
+  margin: 0 auto;
+}
+.brand.optimum section.showcase-section .container-full-width .description .showcase-content h3 {
+  text-align: left;
+}
+.brand.optimum section.showcase-section .container-full-width .description .showcase-content p {
+  text-align: left;
+  font-size: 18px;
+  line-height: 1.33;
+}
+.brand.optimum .row-no-gutter .showcase-content > * {
+  text-align: left !important;
+}
+.brand.optimum .row-no-gutter .image-place-holder {
+  min-height: 500px;
+}
+.brand.optimum .row-no-gutter .image-place-holder.pl-1 {
+  background: url('/petcircle-assets/images/brands/optimum-feature-4.jpg') no-repeat scroll top center transparent;
+  background-size: cover;
+}
+.brand.optimum .row-no-gutter .image-place-holder.pl-2 {
+  background: url('/petcircle-assets/images/brands/optimum-waltham.jpg') no-repeat scroll top center transparent;
+  background-size: auto;
+}
+@media only screen and (max-width: 1024px) {
+  .brand.optimum .row-no-gutter .image-place-holder.pl-2 {
+    background-size: auto 300px;
+  }
+}
+.brand.optimum .row-no-gutter .image-place-holder.pl-3 {
+  background: url('/petcircle-assets/images/brands/optimum-feature-2.jpg') no-repeat scroll top center transparent;
+  background-size: cover;
+}
+.brand.optimum .row-no-gutter .image-place-holder.pl-4 {
+  background: url('/petcircle-assets/images/brands/optimum-feature-3.jpg') no-repeat scroll top left transparent;
+  background-size: cover;
+}
+.brand.optimum .hero-board {
+  background: #ccc;
+  background: -webkit-linear-gradient(top, #ccc 54.99%, #fff 55%) !important;
+  background: -o-linear-gradient(top, #ccc 54.99%, #fff 55%) !important;
+  background: linear-gradient(top, #ccc 54.99%, #fff 55%) !important;
+  position: relative;
+}
+.brand.optimum .hero-board:before {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 54.99%;
+  position: absolute;
+  top: 0;
+  background: url('/petcircle-assets/images/brands/optimum-hero-bg.png') no-repeat top center transparent;
+  background-size: auto;
+}
+.brand.optimum .hero-board .board .hero-product {
+  background: url('/petcircle-assets/images/brands/optimum-product-bg.png') no-repeat;
+  background-size: contain;
+  background-position: center 32%;
+}
+.brand.optimum section.showcase-section.full-row-feature {
+  background: url('/petcircle-assets/images/brands/optimum-australian-made.png') no-repeat top center transparent;
+  background-size: cover;
+  height: 620px;
+  margin: 50px 0 130px;
+}
+.brand.optimum section.showcase-section.full-row-feature .container-full-width {
+  max-width: 100% !important;
+}
+@media only screen and (max-width: 768px) {
+  .brand.optimum section.showcase-section.full-row-feature {
+    margin: 50px 0;
+    background-position: 55% 100% !important;
+    background-size: cover;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.optimum section.showcase-section.full-row-feature .col-sm-12 {
+    float: none;
+    height: 620px;
+  }
+}
+.brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption {
+  background: rgba(0, 0, 0, 0.5);
+  width: 100%;
+  max-width: 35%;
+  padding: 35px 2% 35px 7%;
+  position: absolute;
+  top: 250px;
+  text-align: left;
+}
+@media only screen and (max-width: 1280px) {
+  .brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption {
+    max-width: 50%;
+    top: 100px;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption {
+    bottom: 0;
+    padding: 50px 5%;
+    max-width: 100%;
+    text-align: center;
+    top: auto;
+    left: 0;
+  }
+}
+.brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption * {
+  color: #fff;
+}
+.brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption h2 {
+  font-size: 30px;
+}
+.brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption p {
+  font-size: 18px;
+  line-height: 1.3;
+}
+.brand.optimum section.showcase-section.full-row-feature .col-sm-12 .caption .ui-button {
+  padding: 10px 39px;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper {
+    text-align: center;
+    width: 100% !important;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper {
+    font-size: 26px !important;
+    width: calc(600%) !important;
+  }
+}
+.brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+  width: auto !important;
+}
+@media only screen and (max-width: 1900px) {
+  .brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    float: none;
+    margin: 0 auto;
+    display: inline-block;
+    vertical-align: middle;
+  }
+}
+@media only screen and (max-width: 768px) {
+  .brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item {
+    width: calc(16.66666667%) !important;
+  }
+}
+.brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item:first-child,
+.brand.optimum section.full-width-section .collection.brands .carousel .owl-wrapper .owl-item:last-child {
+  display: none;
+}
+.brand.optimum .section.bottom p {
+  font-size: 18px;
+  line-height: 1.33;
+}
+.brand.optimum .capitalise {
+  text-transform: capitalize !important;
+  float: none !important;
+  clear: none;
+  display: run-in;
+  width: auto !important;
+}
+.ui-product .custom-brand-content .full-width-row.columnize .column-container {
+  background: red !important;
+}
+
+
+/* INSTINCTIVE BITE STYLE FIXES */
+
+.collection-main.collection-id-instinctive-bite {
+    margin-top: 0px;
+  }
+  .collection-main.collection-id-instinctive-bite h2,
+  .collection-main.collection-id-instinctive-bite h4,
+  .collection-main.collection-id-instinctive-bite p {
+    margin-bottom: 0px;
+    font-family: Helvetica;
+    color: #414141;
+    line-height: 1.5;
+  }
+  .collection-main.collection-id-instinctive-bite h4,
+  .collection-main.collection-id-instinctive-bite p {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .collection-main.collection-id-instinctive-bite h2 {
+    font-size: 30px;
+    font-weight: normal;
+  }
+  .collection-main.collection-id-instinctive-bite h4 {
+    font-weight: bold;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.promo-wrapper {
+    background-color: #ebe8e1;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.article-wrapper {
+    background-color: #dfd9d4;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.why-wrapper {
+    background-color: #f4f1ed;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.rating-wrapper {
+    background-color: #f4f1ed;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.product-wrapper {
+    background-color: #e6e3de;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.about-wrapper {
+    background-color: #f0ece5;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container.mobile-hero-banner {
+    display: none;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container {
+    max-width: 1300px;
+    padding: 0 15px;
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+  }
+
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container .flex-prev::before,
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container .flex-next::before {
+    background: none;
+  } 
+
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.full-width {
+    max-width: 100% !important;
+    padding: 0;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.hero-banner .flexslider {
+    margin: 0;
+    border: 0;
+    border-radius: 0;
+  }
+  @media screen and (max-width: 768px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.hero-banner,
+    .collection-main.collection-id-instinctive-bite .content .outer-container.promo-wrapper {
+        display: none;
+    }
+    .collection-main.collection-id-instinctive-bite .content .outer-container.mobile-hero-banner {
+        display: block;
+    }
+  }
+  @media screen and (max-width: 1365px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.hero-banner .flexslider {
+      overflow: hidden;
+    }
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.hero-banner .flexslider .flex-next {
+    background: url(https://img.icons8.com/metro/52/ffffff/forward.png) no-repeat;
+    background-size: contain;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.hero-banner .flexslider .flex-prev {
+    background: url(https://img.icons8.com/metro/52/ffffff/back.png) no-repeat;
+    background-size: contain;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article {
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+  }
+  @media screen and (max-width: 610px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article {
+      -webkit-box-orient: vertical;
+      -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+      flex-direction: column;
+    }
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div {
+    -ms-flex-preferred-size: 45%;
+    flex-basis: 45%;
+  }
+  @media screen and (max-width: 610px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.right-wrapper {
+      -webkit-box-ordinal-group: 2;
+      -ms-flex-order: 1;
+      order: 1;
+    }
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper {
+      -webkit-box-ordinal-group: 3;
+      -ms-flex-order: 2;
+      order: 2;
+      margin-top: 30px;
+    }
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.right-wrapper {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper {
+    margin-right: 80px;
+  }
+  @media screen and (max-width: 610px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper {
+      margin-right: 0px;
+    }
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper h2,
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper p {
+    margin-bottom: 25px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper p,
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper span {
+    color: #000;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.left-wrapper span {
+    font-weight: bold;
+    text-decoration: none;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.article > div.right-wrapper {
+    -ms-flex-preferred-size: auto;
+    flex-basis: auto;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.promo {
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.promo img {
+    max-width: 556px;
+    width: 100%;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why {
+    padding-top: 70px;
+    padding-bottom: 70px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why h2 {
+    margin-bottom: 0px;
+    text-align: center;
+    font-size: 30px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list .why-list-item {
+    -ms-flex-preferred-size: 30%;
+    flex-basis: 30%;
+    margin-top: 70px;
+  }
+  @media screen and (max-width: 768px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list .why-list-item {
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+    }
+  }
+  @media screen and (max-width: 610px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list .why-list-item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list .why-list-item .item-image-wrapper {
+    text-align: center;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list .why-list-item .item-image-wrapper img {
+    max-width: 190px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.why .why-list .why-list-item .item-info-wrapper {
+    max-width: 80%;
+    display: block;
+    margin: 20px auto;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product {
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product h2 {
+    text-align: center;
+    margin-bottom: 0px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product .product-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product .product-list .product-item {
+    position: relative;
+    -ms-flex-preferred-size: 21%;
+    flex-basis: 21%;
+    padding: 70px 0px 74px 0px;
+    text-align: center;
+  }
+  @media screen and (max-width: 1024px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product .product-list .product-item {
+      -ms-flex-preferred-size: 50%;
+      flex-basis: 50%;
+    }
+  }
+  @media screen and (max-width: 610px) {
+    .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product .product-list .product-item {
+      -ms-flex-preferred-size: 100%;
+      flex-basis: 100%;
+    }
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product .product-list .product-item .product-image-wrapper {
+    margin-bottom: 20px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.product .product-list .product-item .product-info-wrapper button {
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    transform: translateX(-50%);
+    padding: 10px 30px;
+    -webkit-appearance: none;
+    border: 0px;
+    background-color: #eeea78;
+    border-radius: 4px;
+    font-weight: bold;
+    font-family: Helvetica;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product {
+    padding-top: 70px;
+    padding-bottom: 90px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product h2 {
+    text-align: center;
+    margin-bottom: 45px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product .about-image-wrapper {
+    margin-bottom: 35px;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product p,
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product a {
+    width: 90%;
+    display: block;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product p {
+    margin: 0 auto 25px auto;
+  }
+  .collection-main.collection-id-instinctive-bite .content .outer-container .inner-container.about-product a {
+    color: #02adad;
+    text-decoration: underline;
+    font-size: 13.5px;
+    margin: 0 auto;
+  }
+  
